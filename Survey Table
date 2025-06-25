@@ -138,15 +138,32 @@
       50% { opacity: 0.7; transform: scale(1.1); }
     }
 
+    a.option-link {
+      text-decoration: none;
+      color: inherit;
+    }
+
+    .option-box {
+      display: inline-block;
+      border: 2px solid #dc2626;
+      border-radius: 6px;
+      padding: 12px 18px;
+      font-weight: 600;
+      color: #1f2937;
+      background: #fff;
+      text-align: center;
+      width: 100%;
+    }
+
+    td {
+      padding: 6px;
+      width: 50%;
+    }
+
     @media (max-width: 600px) {
-      .poll-container {
-        margin: 0 10px;
-      }
-      .poll-title {
-        font-size: 20px;
-      }
-      .question-text {
-        font-size: 15px;
+      td {
+        display: block;
+        width: 100% !important;
       }
     }
   </style>
@@ -161,29 +178,31 @@
     <div class="poll-content">
       <div class="question">
         <div class="question-text">
-          🎆 What is the BIGGEST threat to American freedom this Independence Day?
+          PUT QUESTION HERE
         </div>
-        <table align="center" role="presentation" cellspacing="0" cellpadding="0" style="margin: 0 auto;">
+        <table role="presentation" align="center" cellpadding="0" cellspacing="0">
           <tr>
-            <td style="padding: 6px;">
-              <label style="display: inline-block; border: 2px solid #dc2626; border-radius: 6px; padding: 12px 18px; font-weight: 600; color: #1f2937;">
-                <input type="radio" name="q1" /> Option
-              </label>
+            <td>
+              <a href="WINREDLINK_HERE" class="option-link">
+                <div class="option-box">OPTION HERE</div>
+              </a>
             </td>
-            <td style="padding: 6px;">
-              <label style="display: inline-block; border: 2px solid #dc2626; border-radius: 6px; padding: 12px 18px; font-weight: 600; color: #1f2937;">
-                <input type="radio" name="q1" /> Option
-              </label>
+            <td>
+              <a href="WINREDLINK_HERE" class="option-link">
+                <div class="option-box">OPTION HERE</div>
+              </a>
             </td>
-            <td style="padding: 6px;">
-              <label style="display: inline-block; border: 2px solid #dc2626; border-radius: 6px; padding: 12px 18px; font-weight: 600; color: #1f2937;">
-                <input type="radio" name="q1" /> Option
-              </label>
+          </tr>
+          <tr>
+            <td>
+              <a href="WINREDLINK_HERE" class="option-link">
+                <div class="option-box">OPTION HERE</div>
+              </a>
             </td>
-            <td style="padding: 6px;">
-              <label style="display: inline-block; border: 2px solid #dc2626; border-radius: 6px; padding: 12px 18px; font-weight: 600; color: #1f2937;">
-                <input type="radio" name="q1" /> Option
-              </label>
+            <td>
+              <a href="WINREDLINK_HERE" class="option-link">
+                <div class="option-box">OPTION HERE</div>
+              </a>
             </td>
           </tr>
         </table>
@@ -191,29 +210,31 @@
 
       <div class="question">
         <div class="question-text">
-          🦅 Which conservative value should we fight HARDEST to protect?
+          PUT QUESTION HERE
         </div>
-        <table align="center" role="presentation" cellspacing="0" cellpadding="0" style="margin: 0 auto;">
+        <table role="presentation" align="center" cellpadding="0" cellspacing="0">
           <tr>
-            <td style="padding: 6px;">
-              <label style="display: inline-block; border: 2px solid #dc2626; border-radius: 6px; padding: 12px 18px; font-weight: 600; color: #1f2937;">
-                <input type="radio" name="q2" /> Option
-              </label>
+            <td>
+              <a href="WINREDLINK_HERE" class="option-link">
+                <div class="option-box">OPTION HERE</div>
+              </a>
             </td>
-            <td style="padding: 6px;">
-              <label style="display: inline-block; border: 2px solid #dc2626; border-radius: 6px; padding: 12px 18px; font-weight: 600; color: #1f2937;">
-                <input type="radio" name="q2" /> Option
-              </label>
+            <td>
+              <a href="WINREDLINK_HERE" class="option-link">
+                <div class="option-box">OPTION HERE</div>
+              </a>
             </td>
-            <td style="padding: 6px;">
-              <label style="display: inline-block; border: 2px solid #dc2626; border-radius: 6px; padding: 12px 18px; font-weight: 600; color: #1f2937;">
-                <input type="radio" name="q2" /> Option
-              </label>
+          </tr>
+          <tr>
+            <td>
+              <a href="WINREDLINK_HERE" class="option-link">
+                <div class="option-box">OPTION HERE</div>
+              </a>
             </td>
-            <td style="padding: 6px;">
-              <label style="display: inline-block; border: 2px solid #dc2626; border-radius: 6px; padding: 12px 18px; font-weight: 600; color: #1f2937;">
-                <input type="radio" name="q2" /> Option
-              </label>
+            <td>
+              <a href="WINREDLINK_HERE" class="option-link">
+                <div class="option-box">OPTION HERE</div>
+              </a>
             </td>
           </tr>
         </table>
@@ -221,7 +242,7 @@
     </div>
 
     <div class="poll-footer">
-      <a href="WINREDLINK_HERE" class="submit-btn">📊 Take the Whole Poll Now!</a>
+      <a href="WINREDLINK_HERE" class="submit-btn">📊 Submit My Answers</a>
       <div class="footer-text">
         <span class="stars-decoration">⭐</span>
         Help us defend the values that make America great!
@@ -231,3 +252,4 @@
   </div>
 </body>
 </html>
+
