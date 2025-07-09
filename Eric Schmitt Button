@@ -1,0 +1,50 @@
+<table cellpadding="0" cellspacing="0" border="0" align="center" role="presentation" style="border-collapse: collapse; margin: 24px auto;">
+  <tr>
+    <td align="center" bgcolor="#E03B3B" style="
+      border-radius: 14px;
+      padding: 3px;
+    ">
+      <a href="YOUR-LINK-HERE" target="_blank" style="text-decoration: none; display: block;">
+        <table cellpadding="0" cellspacing="0" border="0" role="presentation" style="border-collapse: collapse;">
+          <tr>
+            <!-- TEXT SIDE -->
+            <td bgcolor="#1A2A48" style="
+              border-top-left-radius: 12px;
+              border-bottom-left-radius: 12px;
+              padding: 20px 30px;
+              font-family: Arial, sans-serif;
+              font-size: 24px;
+              font-weight: bold;
+              text-transform: uppercase;
+              letter-spacing: 2px;
+              color: #FFFFFF;
+              text-align: center;
+              mso-line-height-rule: exactly;
+              line-height: 28px;
+            ">
+              STAND WITH ERIC
+            </td>
+
+            <!-- IMAGE SIDE -->
+            <td style="
+              background-color: #1A2A48;
+              border-top-right-radius: 12px;
+              border-bottom-right-radius: 12px;
+              overflow: hidden;
+            ">
+              <img src="https://www.myimgcloud.com/f0db721f-0869-47c8-af90-034804eb4918.jpg" width="80" height="80" alt="Candidate Photo" style="
+                display: block;
+                border: 0;
+                width: 80px;
+                height: 80px;
+                object-fit: cover;
+                border-top-right-radius: 12px;
+                border-bottom-right-radius: 12px;
+              ">
+            </td>
+          </tr>
+        </table>
+      </a>
+    </td>
+  </tr>
+</table>
