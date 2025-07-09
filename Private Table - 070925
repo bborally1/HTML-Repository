@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Email-Safe Classified Button (Wider & Longer)</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 20px;
+        background: #f0f0f0;
+      }
+
+      .preview {
+        max-width: 800px;
+        margin: 0 auto;
+        background: white;
+        padding: 30px;
+        border-radius: 10px;
+        box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+        margin-bottom: 40px;
+      }
+
+      .code-section {
+        background: #1a1a1a;
+        color: #00ff00;
+        padding: 20px;
+        border-radius: 5px;
+        font-family: monospace;
+        font-size: 16px;
+        overflow-x: auto;
+        max-width: 800px;
+        margin: 0 auto;
+      }
+
+      .code-section h3 {
+        color: #ab0000;
+        margin-top: 0;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="preview">
+
+      <table width="100%" cellpadding="0" cellspacing="0" style="max-width: 800px; margin: 0 auto; background: #000000; border: 4px solid #ab0000;">
+        <tr>
+          <td style="background: #ab0000; color: white; padding: 0px; text-align: center; font-family: Arial, sans-serif; font-weight: bold; font-size: 25px; letter-spacing: 4px;">
+            ★ ★ TOP SECRET - CLASSIFIED ★ ★
+          </td>
+        </tr>
+        <tr>
+          <td style="background: #ab0000; color: white; padding: 20px; text-align: center; font-family: Arial, sans-serif; font-weight: bold; font-size: 20px; letter-spacing: 2px;">
+            CONFIDENTIAL - AUTHORIZED PERSONNEL ONLY
+          </td>
+        </tr>
+        <tr>
+          <td style="background: #1a1a1a; color: #ffffff; padding: 60px; font-family: Arial, sans-serif; font-size: 20px; line-height: 1.9;">
+            <div style="color: #ffff00; font-weight: bold; margin-bottom: 30px; text-align: center; font-size: 24px;">
+              ⚠️ DO NOT FORWARD THIS MESSAGE, ${Recipient.FIRST_NAME} ⚠️
+            </div>
+            <p style="margin: 30px 0; color: #ffffff; font-size: 20px;">
+              <strong>This is urgent.</strong> Schumer and the Dems are flooding red states with dark money to block Trump. I need trusted allies only to see this private message I wrote to fight back:
+            </p>
+            <p style="margin: 30px 0; color: #ffffff; font-size: 20px;">
+              PRIVATE MESSAGE FROM: Ryan Zinke<br>
+              SUBJECT: ██████████████████<br>
+              PRIORITY: <span style="color: #ab0000; font-weight: bold;">IMMEDIATE ACTION REQUIRED</span>
+            </p>
+            <p style="margin: 30px 0; color: #ffffff; font-size: 20px;">
+              You're seeing this because I trust you to keep it quiet. Don't break that trust.
+            </p>
+            <div style="text-align: center; margin: 50px 0;">
+              <a href="https://secure.winred.com/schmitt-for-senate/2026-dems-playbook" style="background: #ab0000; color: white; padding: 28px 60px; font-family: Arial, sans-serif; font-size: 22px; font-weight: bold; text-transform: uppercase; letter-spacing: 2px; text-decoration: none; border: 3px solid #ffffff; display: inline-block;">
+                🔒 READ MY PRIVATE MESSAGE NOW
+              </a>
+            </div>
+            <div style="color: #ffff00; font-size: 18px; text-align: center; margin-top: 40px; font-weight: bold;">
+              ⚠️ FOR AUTHORIZED EYES ONLY ⚠️<br>
+              MESSAGE EXPIRES IN 24 HOURS
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <td style="background: #ab0000; color: white; padding: 30px; text-align: center; font-family: Arial, sans-serif; font-size: 20px; font-weight: bold;">
+            CLASSIFIED DOCUMENT - HANDLE WITH EXTREME CARE
+          </td>
+        </tr>
+      </table>
+    </div>
+  </body>
+
+</html>
