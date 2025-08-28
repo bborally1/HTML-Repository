@@ -1,0 +1,29 @@
+<table cellpadding="0" cellspacing="0" border="0" width="100%" style="max-width:600px; background-color:#fff0f0; border:1px solid #ffb3b3; border-radius:10px; font-family:Arial, sans-serif; font-size:16px; color:#111; margin:24px auto;">
+  <tr>
+    <td style="padding:20px 24px; background:linear-gradient(to right, #ffcccc, #ffe6e6); border-top-left-radius:10px; border-top-right-radius:10px; text-align:center;">
+      <div style="font-size:20px; font-weight:bold; color:#990000;">
+        ⚠️ ALERT for <span style="background-color:#ff6666; color:#fff; padding:2px 6px; border-radius:4px;">${Recipient.FIRST_NAME}</span>
+      </div>
+      <div style="font-size:16px; margin-top:6px;">
+        We've detected <strong>3 MAJOR ISSUES</strong> in your MAGA Profile:
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td style="padding:16px 24px; border-top:1px solid #ffb3b3;">
+      ❌ <strong style="color:#cc0000;">UNVERIFIED</strong> status on core <strong>GOP 2026</strong> issues
+    </td>
+  </tr>
+  <tr>
+    <td style="padding:16px 24px; border-top:1px solid #ffb3b3;">
+      ❌ Listed as a <strong style="color:#cc0000;">SUPPORTER of D.C. Statehood</strong> <em>(Schumer’s dream)</em>
+    </td>
+  </tr>
+  <tr>
+    <td style="padding:16px 24px; border-top:1px solid #ffb3b3; border-bottom:1px solid #ffb3b3;">
+      ❌ <strong>ONLY</strong> ${Recipient.STATE} supporter flagged 
+      <span style="background-color:#ffcccc; padding:2px 6px; border-radius:4px;"><strong>[MISSING]</strong></span> from the 
+      <strong>President Trump Loyalty Response Sweep</strong>
+    </td>
+  </tr>
+</table>
