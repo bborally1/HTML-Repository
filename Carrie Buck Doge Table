@@ -164,9 +164,7 @@
                 </table>
             </a>
         </div>
-        
-        <div class="message-text">
-            📋 <strong>${Recipient.FIRST_NAME}</strong>, you are unconfirmed on both of these issues and need to correct the record immediately to secure your benefits.
+
         </div>
         
         <div class="confirm-btn-center">
