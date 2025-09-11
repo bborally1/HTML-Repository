@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rebate and Dividend Status</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #fffff;
+        }
+     
+        
+        h1 {
+            text-align: center;
+            color: #cb9800;
+            margin-bottom: 30px;
+            font-size: 24px;
+            font-weight: bold;
+        }
+        
+        .table-wrapper {
+            margin: 20px 0;
+        }
+        
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            background-color: #eeeeee;
+            border: 3px solid #cb9800;
+        }
+        
+        th, td {
+            border: 2px solid #cb9800;
+            padding: 15px;
+            text-align: left;
+        }
+        
+        th {
+            background-color: #cb9800;
+            color: #000000;
+            font-weight: bold;
+            text-align: center;
+            font-size: 16px;
+        }
+        
+        .amount {
+            font-size: 18px;
+            font-weight: bold;
+            color: #cb9800;
+        }
+        
+        .status {
+            color: #000000;
+            font-weight: bold;
+            text-transform: uppercase;
+            background-color: #e1b303;
+            padding: 5px 10px;
+            border-radius: 3px;
+        }
+        
+        .recipient-row {
+            background-color: #f9f9f9;
+        }
+        
+        .benefit-type {
+            font-weight: bold;
+            color: #000000;
+            font-size: 16px;
+        }
+        
+        .message-text {
+            background-color: #e1b303;
+            border: 2px solid #cb9800;
+            border-radius: 5px;
+            padding: 20px;
+            margin: 25px 0;
+            color: #000000;
+            font-weight: bold;
+            text-align: center;
+            font-size: 16px;
+        }
+        
+        .confirm-btn {
+            background-color: #ab0000 !important;
+            color: #ffffff !important;
+            border: 3px solid #ff4500;
+            padding: 20px 45px;
+            font-size: 22px;
+            font-weight: bold;
+            border-radius: 8px;
+            text-decoration: none;
+            display: inline-block;
+            margin: 20px auto;
+            text-align: center;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            width: 280px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+        }
+        
+        .confirm-btn-center {
+            text-align: center;
+            margin: 30px 0;
+        }
+        
+        .urgent-notice {
+            margin-top: 25px;
+            padding: 20px;
+            background-color: #e1b303;
+            border: 3px solid #000000;
+            border-radius: 5px;
+            color: #000000;
+            font-weight: bold;
+            text-align: center;
+            font-size: 14px;
+        }
+        
+        /* Email client compatibility */
+        .table-link {
+            color: inherit;
+            text-decoration: none;
+            display: block;
+        }
+        
+        .recipient-name {
+            color: #cb9800;
+            font-size: 18px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>GOP Confirmation Record for ${Recipient.FIRST_NAME}</h1>
+        
+        <div class="table-wrapper">
+            <a href="LINK" class="table-link">
+                <table cellpadding="0" cellspacing="0">
+                    <thead>
+                        <tr>
+                            <th>Recipient</th>
+                            <th>Benefit Type</th>
+                            <th>Potential Amount</th>
+                            <th>Current Status</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="recipient-row">
+                            <td rowspan="2"><span class="recipient-name">${Recipient.FIRST_NAME}</span></td>
+                            <td class="benefit-type">➜ Tariff Rebate Check</td>
+                            <td class="amount">Up to $600</td>
+                            <td><span style="color: #ffffff; font-weight: bold; text-transform: uppercase; background-color: #dc3545; padding: 8px 12px; border-radius: 3px; border: 2px solid #b02a37; display: inline-block;">Unconfirmed</span></td>
+                        </tr>
+                        <tr class="recipient-row">
+                            <td class="benefit-type">➜ DOGE Dividend Check</td>
+                            <td class="amount">Up to $5,000</td>
+                             <td><span style="color: #ffffff; font-weight: bold; text-transform: uppercase; background-color: #dc3545; padding: 8px 12px; border-radius: 3px; border: 2px solid #b02a37; display: inline-block;">Unconfirmed</span></td>
+                            
+                        </tr>
+                    </tbody>
+                </table>
+            </a>
+        </div>
+        
+        <div class="message-text">
+            📋 <strong>${Recipient.FIRST_NAME}</strong>, you are unconfirmed on both of these issues and need to correct the record immediately to secure your benefits.
+        </div>
+        
+        <div class="confirm-btn-center">
+            <a href="LINK" class="confirm-btn">✔ CONFIRM HERE ✔</a>
+        </div>
+        
+     
+        </div>
+    </div>
+</body>
+</html>
