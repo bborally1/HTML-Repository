@@ -1,0 +1,40 @@
+<table cellpadding="0" cellspacing="0" border="0" align="center" style="margin: 20px auto; text-align: center;">
+    <tr>
+        <td style="padding-right: 32px;">
+            <table cellpadding="0" cellspacing="0" border="0" style="border-radius: 40px; overflow: hidden;">
+                <tr>
+                    <td style="background: linear-gradient(135deg, #5cb85c 0%, #28a745 100%, #1e7e34 100%); background-color: #28a745; padding: 4px;">
+                        <table cellpadding="0" cellspacing="0" border="0" align="center">
+                            <tr>
+                                <td>
+                                    <a href="https://secure.winred.com/btvf/poll-national-guard-trump/?recurring=true" 
+                                       style="background: linear-gradient(135deg, #5cb85c 0%, #28a745 100%); background-color: #28a745; color: white; padding: 22px 50px; text-decoration: none; border-radius: 40px; font-weight: 900; display: inline-block; font-size: 22px; text-align: center; min-width: 120px; letter-spacing: 1px; text-shadow: 0 3px 6px rgba(0,0,0,0.3); box-shadow: 0 8px 24px rgba(40, 167, 69, 0.5), inset 0 1px 0 rgba(255,255,255,0.2); mso-padding-alt: 22px 50px; font-family: Arial, sans-serif;">
+                                        ✓ YES
+                                    </a>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+            </table>
+        </td>
+        <td>
+            <table cellpadding="0" cellspacing="0" border="0" style="border-radius: 40px; overflow: hidden;">
+                <tr>
+                    <td style="background: linear-gradient(135deg, #ff6b6b 0%, #cc0000 100%); background-color: #cc0000; padding: 4px;">
+                        <table cellpadding="0" cellspacing="0" border="0" align="center">
+                            <tr>
+                                <td>
+                                    <a href="https://secure.winred.com/btvf/poll-national-guard-trump/?recurring=true" 
+                                       style="background: linear-gradient(135deg, #ff6b6b 0%, #cc0000 100%); background-color: #cc0000; color: white; padding: 22px 50px; text-decoration: none; border-radius: 40px; font-weight: 900; display: inline-block; font-size: 22px; text-align: center; min-width: 120px; letter-spacing: 1px; text-shadow: 0 3px 6px rgba(0,0,0,0.3); box-shadow: 0 8px 24px rgba(204, 0, 0, 0.5), inset 0 1px 0 rgba(255,255,255,0.2); mso-padding-alt: 22px 50px; font-family: Arial, sans-serif;">
+                                        ✗ NO
+                                    </a>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+            </table>
+        </td>
+    </tr>
+</table>
