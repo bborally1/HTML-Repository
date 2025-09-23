@@ -1,0 +1,76 @@
+<table width="100%" cellpadding="0" cellspacing="0" bgcolor="#fff" style="font-family: Georgia, serif; color: #000;">
+  <tr>
+    <td align="center" style="padding: 30px;">
+      <!-- FULL LETTER BLOCK -->
+      <table cellpadding="30" cellspacing="0" style="max-width: 640px; width: 100%; background-color: #fffaf0; border: 2px solid #000; text-align: left;">
+        <tr>
+          <td style="text-align: center; font-size: 22px; font-weight: bold; padding-bottom: 10px;">
+            FROM: ${Recipient.FIRST_NAME}<br>
+            TO: PRESIDENT DONALD J. TRUMP
+          </td>
+        </tr>
+        <tr>
+          <td style="font-size: 20px; line-height: 1.75;">
+            <p style="margin: 0;">Dear President Trump,</p>
+            <p style="margin: 0;">Thank <u>you</u>, for never backing down.</p>
+            <p style="margin-bottom: 24px;">You didn’t have to do this.</p>
+
+            <p>You had everything. Peace. Comfort. Legacy.</p>
+
+            <p>But you chose the fight. Not for yourself—for <strong>us</strong>.<br>
+            <em><strong>For a country that was being sold off, torn apart, and forgotten.</strong></em></p>
+
+            <p>You stood in the fire when everyone else ran. You took the smears, the sham indictments, the midnight raids. You never wavered.</p>
+
+            <p><strong>And you did it for one reason:</strong><br>
+            <span style="font-weight: bold; font-style: italic;">To make America great again—not in slogan, but in spirit.</span></p>
+
+            <p>So today, I don’t just say thank you.<br>
+            I stand with you, ready to finish what we started.</p>
+
+            <p>I believe in strong borders.<br>
+            I believe in law and order.<br>
+            I believe in energy independence, fair elections, and free speech.</p>
+
+            <p>I believe <strong>you</strong> are the only one with the courage to lead this nation back from the brink.</p>
+
+            <p style="font-size: 22px; font-weight: bold;">You fought for me.<br>
+            Now I fight for you.</p>
+
+            <p>Let’s take our country back.</p>
+
+            <!-- SIGNATURE BLOCK -->
+            <div style="margin: 40px 0; text-align: center;">
+              <p style="font-size: 18px; margin-bottom: 12px;"><strong>Sincerely,</strong></p>
+              <div style="display: inline-block; background-color: #d4f4d4; border: 3px solid #006400; padding: 20px 30px; border-radius: 12px;">
+                <a href="https://your-link-here.com" style="font-size: 26px; color: #004400; font-weight: bold; text-transform: uppercase; text-decoration: none;">
+                  X: YOUR NAME HERE
+                </a>
+              </div>
+            </div>
+          </td>
+        </tr>
+      </table>
+
+      <!-- CTA FOOTER -->
+      <table width="100%" cellpadding="20" cellspacing="0" style="max-width: 640px; margin-top: 30px;">
+        <tr>
+          <td align="center" style="background-color: #ffe5e5; color: #8b0000; font-size: 20px; font-weight: bold; padding: 20px; border: 2px solid #cc0000;">
+            SIGN YOUR NAME NOW<br>
+            ${Recipient.FIRST_NAME}, MAGA asked for you to show up.<br>
+            <span style="color: #cc0000;">Please don’t wait!</span><br><br>
+            <a href="https://your-link-here.com" style="background-color: #cc0000; color: #fff; padding: 14px 30px; text-decoration: none; font-size: 24px; font-weight: bold; display: inline-block; border-radius: 6px;">
+              ADD MY NAME
+            </a>
+          </td>
+        </tr>
+        <tr>
+          <td align="center" style="font-size: 16px; color: #444;">
+            <strong>– President Donald J. Trump Thank You Letter Team</strong><br>
+            <em>(via Team Carrie Buck)</em>
+          </td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+</table>
