@@ -1,0 +1,37 @@
+<table align="center" width="100%" cellpadding="0" cellspacing="0" style="max-width:600px; margin:auto; background:#ffffff; font-family:Arial, sans-serif;">
+  <!-- GOP Logo -->
+  <tr>
+    <td style="text-align:center; padding:20px 0 10px;">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/9/9b/Republicanlogo.svg" alt="GOP Logo" width="80">
+    </td>
+  </tr>
+  <!-- Alert Banner -->
+  <tr>
+    <td style="background-color:#b31c1c; color:white; text-align:center; padding:30px 20px; border-top:4px solid #001f3f;">
+      <h2 style="margin:0; font-size:24px; letter-spacing:1px;">🚨 GOP SUPPORTER STATUS: <span style="text-decoration:underline;">UNCONFIRMED</span> 🚨</h2>
+    </td>
+  </tr>
+  <!-- Audit Info -->
+  <tr>
+    <td style="background-color:#f9f9f9; text-align:center; padding:25px;">
+      <p style="margin:10px 0; font-size:16px; color:#333;"><strong>NAME:</strong> <span style="font-size:18px; color:#b31c1c; font-weight:bold;">${Recipient.FIRST_NAME}</span></p>
+      <p style="margin:10px 0; font-size:16px; color:#333;"><strong>GOP STANDINGS:</strong> <span style="color:#b31c1c;">AT RISK</span></p>
+      <p style="margin:10px 0; font-size:16px; color:#333;"><strong>DEADLINE:</strong> <span style="color:#b31c1c;">11:59 PM TONIGHT</span></p>
+    </td>
+  </tr>
+  <!-- Submit Button -->
+  <tr>
+    <td style="text-align:center; padding:20px;">
+      <a href="{{link}}" style="background-color:#b31c1c; color:white; padding:15px 30px; text-decoration:none; font-size:18px; font-weight:bold; border-radius:5px; display:inline-block;">
+        ✅ SUBMIT HERE →
+      </a>
+    </td>
+  </tr>
+  <!-- Countdown Timer -->
+  <tr>
+    <td style="text-align:center; padding:0 0 30px;">
+      <p style="margin-bottom:10px; font-size:16px; color:#111;"><strong>Time left to submit:</strong></p>
+      <img src="https://www.myimgcloud.com/e4be73c5-c70a-4af7-8763-5829dafef663.gif" alt="Countdown Timer" width="200">
+    </td>
+  </tr>
+</table>
