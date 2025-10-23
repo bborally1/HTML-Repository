@@ -1,0 +1,54 @@
+<table cellpadding="0" cellspacing="0" border="0" style="width:100%; max-width:600px; background:#ffffff; border:2px solid #b40000; border-radius:10px; font-family:Arial, sans-serif; color:#111111; margin:20px auto;">
+  <tr>
+    <td colspan="2" style="background:#b40000; color:#ffffff; text-align:center; font-size:22px; font-weight:bold; padding:20px; border-top-left-radius:10px; border-top-right-radius:10px;">
+      WINTER MEMBERSHIP APPROVED FOR ${Recipient.FIRST_NAME}❄️
+    </td>
+  </tr>
+
+  <tr>
+    <td colspan="2" style="padding:15px 20px; text-align:center; font-size:16px; color:#444;">
+      You’ve been pre-selected for early access to the official <strong>MAGA Winter Membership</strong>, and you’re getting it before it launches nationwide.
+    </td>
+  </tr>
+
+  <tr>
+    <td style="padding:12px 20px; font-weight:bold; font-size:16px; border-top:1px solid #ddd;">
+      Status:
+    </td>
+    <td style="padding:12px 20px; text-align:right; font-size:16px; border-top:1px solid #ddd;">
+      ✅ Pre-Approved
+    </td>
+  </tr>
+
+  <tr>
+    <td style="padding:12px 20px; font-weight:bold; font-size:16px; border-top:1px solid #ddd;">
+      Member Level:
+    </td>
+    <td style="padding:12px 20px; text-align:right; font-size:16px; border-top:1px solid #ddd;">
+       MAGA Winter Patriot
+    </td>
+  </tr>
+
+  <tr>
+    <td style="padding:12px 20px; font-weight:bold; font-size:16px; border-top:1px solid #ddd;">
+      Launch Price:
+    </td>
+    <td style="padding:12px 20px; text-align:right; font-size:16px; color:#b40000; font-weight:bold; border-top:1px solid #ddd;">
+      50% OFF for ${Recipient.FIRST_NAME}
+    </td>
+  </tr>
+
+  <tr>
+    <td colspan="2" style="padding:25px 20px; text-align:center;">
+      <a href="LINK" style="display:inline-block; padding:14px 28px; background:#b40000; color:#ffffff; text-decoration:none; font-weight:bold; font-size:16px; border-radius:5px;">
+        CLAIM MY WINTER MEMBERSHIP NOW →
+      </a>
+    </td>
+  </tr>
+
+  <tr>
+    <td colspan="2" style="text-align:center; font-size:14px; color:#777; padding-bottom:20px;">
+      Offer only valid for the first 50 patriots. Don’t wait.
+    </td>
+  </tr>
+</table>
