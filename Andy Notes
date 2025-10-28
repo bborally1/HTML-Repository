@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Notes Message</title>
+  <style>
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      background-color: #fff;
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+      padding: 40px 20px;
+      margin: 0;
+    }
+    .notes-container {
+      max-width: 420px;
+      color: #000;
+    }
+    .notes-header {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      color: #8e8e00;
+      margin-bottom: 16px;
+    }
+    .top-row {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      width: 100%;
+      margin-bottom: 4px;
+    }
+    .top-row span {
+      font-size: 18px;
+      font-weight: 500;
+      color: #c8a800;
+    }
+    .icons {
+      display: flex;
+      gap: 16px;
+      color: #d4af37;
+      font-size: 22px;
+    }
+    .timestamp {
+      font-size: 14px;
+      color: #888;
+    }
+    .icon {
+      width: 22px;
+      height: 22px;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 50%;
+      border: 1.5px solid #d4af37;
+    }
+    .icon svg {
+      width: 12px;
+      height: 12px;
+      fill: none;
+      stroke: #d4af37;
+      stroke-width: 2;
+    }
+    .message {
+      font-size: 17px;
+      line-height: 1.55;
+      color: #222;
+    }
+    a {
+      text-decoration: none;
+      color: inherit;
+      display: block;
+    }
+  </style>
+</head>
+<body>
+  <a href="LINK" class="notes-container">
+    <div class="notes-header">
+      <div class="top-row">
+        <span>Notes</span>
+        <div class="icons">
+          <div class="icon">
+            <svg viewBox="0 0 24 24"><path d="M12 19V5M5 12h14"/></svg>
+          </div>
+          <div class="icon" style="opacity: 0.5;">
+            <svg viewBox="0 0 24 24"><path d="M5 12h14"/></svg>
+          </div>
+          <div class="icon">
+            <svg viewBox="0 0 24 24"><path d="M4 12h16M12 4v16"/></svg>
+          </div>
+          <div class="icon" style="border:none;">
+            <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="1.5"/><circle cx="6" cy="12" r="1.5"/><circle cx="18" cy="12" r="1.5"/></svg>
+          </div>
+        </div>
+      </div>
+      <div class="timestamp">October 28, 2025 at 9:08 AM</div>
+    </div>
+
+    <div class="message">
+      I just opened the Notes app because this couldn’t wait another minute. No polish. No press release. Just me talking to you.  
+      <br><br>
+      I told my team, “Send this only to our #1 supporter on file, nobody else.” Because this one’s personal.  
+      <br><br>
+      <b><u>${Recipient.FIRST_NAME}, I’ve never needed you more than I do tonight.</u></b>  
+      <br><br>
+      We’re staring down the end-of-month fundraising deadline, and if we miss it, everything we’ve built together is on the line.  
+      <br><br>
+      This race isn’t about me. It’s about whether we keep the America First movement alive and growing — or watch the Left take a victory lap and call MAGA finished.  
+      <br><br>
+      The media’s already writing their headlines. They’re itching to say “Barr fell short.” They think our movement is running out of steam. 
+      <br><br>
+      I need you to prove them wrong. Not tomorrow, right now. Because if we fail here, MAGA takes the hit. But if we win, it sends shockwaves. It shows this movement doesn’t fade, it fights harder.  
+      <br><br>
+      <b><u>${Recipient.FIRST_NAME}, will you stand with me one more time before midnight? Let’s finish this the way we started, together.</u></b>  
+      <br><br>
+      - Andy Barr  
+    </div>
+  </a>
+</body>
+</html>
