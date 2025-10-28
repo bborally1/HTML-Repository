@@ -17,6 +17,7 @@
     .notes-container {
       max-width: 420px;
       color: #000;
+      text-decoration: none;
     }
     .notes-header {
       display: flex;
@@ -63,6 +64,13 @@
       stroke: #d4af37;
       stroke-width: 2;
     }
+    .logo {
+      margin-top: 10px;
+      margin-bottom: 20px;
+      width: 140px;
+      height: auto;
+      opacity: 0.9;
+    }
     .message {
       font-size: 17px;
       line-height: 1.55;
@@ -95,7 +103,10 @@
           </div>
         </div>
       </div>
-      <div class="timestamp">October 28, 2025 at 9:08 AM</div>
+      <div class="timestamp">October 31, 2025 at 8:08 PM</div>
+
+      <!-- LOGO INSERTED HERE -->
+      <img src="https://www.myimgcloud.com/268b3d6f-cb33-426a-a492-38cec192752d.png" alt="Andy Barr Logo" class="logo" />
     </div>
 
     <div class="message">
@@ -120,3 +131,4 @@
   </a>
 </body>
 </html>
+
