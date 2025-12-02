@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Who’s Leading the GOP?</title>
+  <style>
+    body { font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; background-color: #ffff; margin: 0; padding: 0; }
+    .email-container { max-width: 680px; margin: auto; background: #ffffff; border-radius: 10px; overflow: hidden; box-shadow: 0 0 25px rgba(0,0,0,0.08); }
+    .header { background-color: #8B0000; color: white; text-align: center; padding: 40px 20px; }
+    .header h1 { font-size: 28px; margin: 0; line-height: 1.4; }
+    .hero { font-size: 18px; background: #ffffff; color: #333; padding: 25px 30px; line-height: 1.6; text-align: center; border-bottom: 1px solid #eee; }
+    .hero strong { color: #8B0000; }
+    .content { padding: 30px; font-size: 16px; line-height: 1.6; color: #222; }
+    .content h2 { font-size: 22px; color: #8B0000; margin-top: 0; }
+    .survey-table { width: 100%; margin: 30px 0; border-spacing: 0; border-collapse: collapse; }
+    .survey-table td { width: 50%; padding: 16px; text-align: center; font-weight: bold; background: #f9f9f9; border: 1px solid #ddd; transition: all 0.3s ease; cursor: pointer; }
+    .survey-table td:hover { background-color: #ffe5e5; }
+    .write-in { margin-top: 25px; }
+    .write-in input { width: 100%; padding: 14px; font-size: 16px; border: 1px solid #ccc; border-radius: 6px; margin-top: 10px; }
+    .button { display: block; text-align: center; background-color: #8B0000; color: #fff; padding: 16px; text-decoration: none; border-radius: 6px; font-weight: bold; margin-top: 30px; font-size: 16px; }
+    .button.secondary { background-color: #111; margin-top: 12px; }
+    .footer { font-size: 16px; color: #666; background: #f9f9f9; padding: 20px; text-align: center; border-top: 1px solid #ddd; }
+  </style>
+</head>
+<body>
+  <div class="email-container">
+    <div class="header">
+      <h1>🚨 THE FUTURE OF THE GOP IS BEING DECIDED RIGHT NOW</h1>
+    </div>
+    <div class="hero">
+      <p><strong>${Recipient.FIRST_NAME}, 2025 is the turning point.</strong> The battle lines are drawn, and America First patriots are demanding clarity. Trump redefined the movement, but who’s next in 2028?</p>
+    </div>
+    <div class="content">
+      <h2>YOU DECIDE: WHO’S DO YOU WANT LEADING THE CHARGE IN 2028?</h2>
+      <p>
+        The Establishment is scrambling. Conservative fighters are stepping up. The media has their pick but we only care about YOUR voice, ${Recipient.FIRST_NAME}.
+        <br><br>
+        <strong>This isn’t just a poll. It’s a pulse-check on the movement.</strong> And we’re collecting the most important answers from America First conservatives like you.
+        So, ${Recipient.FIRST_NAME}, who do you like right now? 
+      </p>
+
+      <table class="survey-table">
+        <tr>
+          <td>Donald Trump Jr</td>
+          <td>Ron DeSantis</td>
+        </tr>
+        <tr>
+          <td>JD Vance</td>
+          <td>Elise Stefanik</td>
+        </tr>
+        <tr>
+          <td>Byron Donalds</td>
+          <td>Mike Johnson</td>
+        </tr>
+      </table>
+
+      <div class="write-in">
+        <label for="write-in"><strong>Have a different leader in mind?</strong></label>
+        <input type="text" id="write-in" placeholder="Write in your GOP Leader...">
+      </div>
+
+      <a href="#" class="button">👉 CAST MY GOP LEADERSHIP VOTE</a>
+    </div>
+    <div class="footer">
+      - Republican Governors Association
+    </div>
+  </div>
+</body>
+</html>
