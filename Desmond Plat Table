@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>2026 GOP Platinum Membership</title>
+</head>
+
+<body style="margin:0; padding:0; background-color:#f5f5f5;">
+  <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="background-color:#f5f5f5;">
+    <tr>
+      <td align="center" style="padding:40px 20px;">
+
+        <!-- CONTAINER -->
+        <table role="presentation" width="600" cellpadding="0" cellspacing="0" border="0" style="max-width:600px; background-color:#0f0f0f; border:1px solid #;">
+
+          <!-- TOP PLATINUM BAR -->
+          <tr>
+            <td style="height:4px; background-color:#c0c0c0;"></td>
+          </tr>
+
+          <!-- LOGO -->
+          <tr>
+            <td align="center" style="padding:40px 30px 30px;">
+              <img src="https://www.myimgcloud.com/aac44f92-b322-4cdc-a4cb-24ca3331518c.png"
+                   width="160"
+                   alt="GOP Platinum"
+                   style="display:block; border:0; outline:none; text-decoration:none;">
+            </td>
+          </tr>
+
+          <!-- CONTENT -->
+          <tr>
+            <td align="center" style="padding:0 40px 40px;">
+
+              <!-- TITLE -->
+              <p style="margin:0; font-family:Arial, Helvetica, sans-serif; font-size:32px; font-weight:300; color:#e5e4e2; letter-spacing:6px; text-transform:uppercase;">
+                GOP Platinum FOR:${Recipient.FIRST_NAME}
+              </p>
+
+              <p style="margin:10px 0 20px; font-family:Arial, Helvetica, sans-serif; font-size:16px; font-weight:bold; color:#c0c0c0; letter-spacing:2px; text-transform:uppercase;">
+                2026 Membership
+              </p>
+
+              <!-- DIVIDER -->
+              <table role="presentation" width="60" cellpadding="0" cellspacing="0" border="0" style="margin:0 auto 25px;">
+                <tr>
+                  <td style="height:1px; background-color:#c0c0c0;"></td>
+                </tr>
+              </table>
+
+              <!-- PERSONAL MESSAGE -->
+              <p style="margin:0 0 25px; font-family:Arial, Helvetica, sans-serif; font-size:16px; color:#dddddd; line-height:1.5;">
+                 <strong>ONLY ONE SHOT TO CLAIM</strong>.
+              </p>
+
+              <!-- CTA BUTTON -->
+              <table role="presentation" cellpadding="0" cellspacing="0" border="0" style="margin:0 auto;">
+                <tr>
+                  <td align="center" style="background-color:#c00;">
+                    <a href="{{link}}"
+                       style="display:inline-block; padding:18px 48px; font-family:Arial, Helvetica, sans-serif; font-size:14px; font-weight:bold; color:#ffff; text-decoration:none; letter-spacing:3px; text-transform:uppercase;">
+                      Claim Your Spot
+                    </a>
+                  </td>
+                </tr>
+              </table>
+
+              <!-- FOOTER NOTE -->
+              <p style="margin:25px 0 0; font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#888888; letter-spacing:1px;">
+                Reserved exclusively for ${Recipient.FIRST_NAME}
+              </p>
+
+            </td>
+          </tr>
+
+          <!-- BOTTOM PLATINUM BAR -->
+          <tr>
+            <td style="height:4px; background-color:#c0c0c0;"></td>
+          </tr>
+
+        </table>
+        <!-- END CONTAINER -->
+
+      </td>
+    </tr>
+  </table>
+</body>
+</html>
