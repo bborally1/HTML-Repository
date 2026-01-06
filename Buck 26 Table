@@ -1,0 +1,106 @@
+<table cellpadding="0" cellspacing="0" border="0" width="100%" style="max-width:600px; background-color:#1a1a2e; font-family:'Trebuchet MS', Helvetica, sans-serif; font-size:15px; color:#eee; margin:24px auto; box-shadow:0 4px 12px rgba(0,0,0,0.15);">
+  <tr>
+    <td style="padding:32px 28px 24px 28px; background-color:#16213e; text-align:left;">
+      <table cellpadding="0" cellspacing="0" border="0" width="100%">
+        <tr>
+          <td style="width:48px; vertical-align:top; padding-right:16px;">
+            <img 
+              src="https://www.myimgcloud.com/a7b37ba8-c89f-4e02-b709-cfee6f50cb83.png"
+              width="40"
+              height="40"
+              style="display:block; width:40px; height:40px; border-radius:50%;"
+              alt="Alert"
+            />
+          </td>
+          <td style="vertical-align:top;">
+            <div style="font-size:18px; font-weight:bold; color:#ffffff; margin-bottom:8px;">
+              GOP Profile - 2026 Alert
+            </div>
+            <div style="font-size:14px; color:#0f3460; background-color:#ffd700; display:inline-block; padding:4px 10px; border-radius:4px; font-weight:bold;">
+              ${Recipient.FIRST_NAME} • ${Recipient.STATE}
+            </div>
+          </td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+
+  <tr>
+    <td style="padding:24px 28px; background-color:#0f3460;">
+      <div style="font-size:16px; color:#ffffff; font-weight:bold; margin-bottom:16px; border-left:4px solid #e94560; padding-left:12px;">
+        Your account shows 3 unresolved discrepancies:
+      </div>
+    </td>
+  </tr>
+
+  <tr>
+    <td style="padding:0 28px;">
+      <table cellpadding="0" cellspacing="0" border="0" width="100%">
+        <tr>
+          <td style="padding:18px 0; border-bottom:1px solid #16213e;">
+            <table width="100%">
+              <tr>
+                <td style="width:32px; vertical-align:top; color:#e94560; font-size:20px; font-weight:bold;">1.</td>
+                <td style="color:#eee;">
+                  <strong style="color:#ffd700;">INCOMPLETE VERIFICATION</strong> — UNVERIFIED on VOTER ID
+                </td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+
+        <tr>
+          <td style="padding:18px 0; border-bottom:1px solid #16213e;">
+            <table width="100%">
+              <tr>
+                <td style="width:32px; vertical-align:top; color:#e94560; font-size:20px; font-weight:bold;">2.</td>
+                <td style="color:#eee;">
+                  Profile flagged as <strong style="color:#ffd700;">a SUPPORTER of D.C. Statehood</strong>,
+                  <span style="color:#999; font-style:italic;">(contradicts your last 2025 answer)</span>
+                </td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+
+        <tr>
+          <td style="padding:18px 0;">
+            <table width="100%">
+              <tr>
+                <td style="width:32px; vertical-align:top; color:#e94560; font-size:20px; font-weight:bold;">3.</td>
+                <td style="color:#eee;">
+                  You're marked as <strong style="color:#ffd700;">ONLY Republican</strong> from ${Recipient.STATE} missing from the GOP Voter Check —
+                  <span style="background-color:#e94560; color:#fff; padding:2px 8px; border-radius:3px; font-size:13px; font-weight:bold;">
+                    ACTION NEEDED
+                  </span>
+                </td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+
+  <tr>
+    <td style="padding:24px 28px; text-align:center;">
+      <table align="center">
+        <tr>
+          <td style="background-color:#e94560; border-radius:6px;">
+            <a href="YOUR_LINK_HERE" style="display:inline-block; padding:16px 48px; font-size:18px; font-weight:bold; color:#ffffff; text-decoration:none;">
+              FIX NOW →
+            </a>
+          </td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+
+  <tr>
+    <td style="padding:8px 28px 28px 28px;">
+      <div style="font-size:13px; color:#999; font-style:italic; border-top:1px solid #16213e; padding-top:16px;">
+        Record last updated: System Auto-Flag
+      </div>
+    </td>
+  </tr>
+</table>
