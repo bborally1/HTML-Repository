@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>2026 GOP Senate Priority Survey</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #ffff;
+        color: #222;
+        padding: 20px;
+      }
+      .container {
+        max-width: 500px;
+        margin: auto;
+        background-color: #ffffff;
+        border: 1px solid #d1d1d1;
+        border-radius: 8px;
+        overflow: hidden;
+      }
+      .header {
+        background-color: #b20000;
+        color: #fff;
+        text-align: center;
+        padding: 0;
+      }
+      .header img {
+        width: 100%;
+        display: block;
+        border-bottom: 4px solid #b20000;
+      }
+      .content {
+        padding: 20px;
+      }
+      table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-bottom: 20px;
+      }
+      th, td {
+        text-align: left;
+        padding: 12px;
+        border-bottom: 1px solid #ddd;
+      }
+      th {
+        background-color: #f1f1f1;
+      }
+      .button {
+        display: block;
+        width: 100%;
+        padding: 15px;
+        text-align: center;
+        background-color: #b20000;
+        color: #fff;
+        text-decoration: none;
+        font-weight: bold;
+        border-radius: 5px;
+        margin-top: 10px;
+      }
+      .button:hover {
+        background-color: #8f0000;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <img src="https://www.myimgcloud.com/6f5037c7-cc7d-4247-9acc-9d73998291cd.png" alt="GOP Header" />
+      </div>
+      <div class="content">
+        <p><strong>${Recipient.FIRST_NAME},</strong></p>
+        <p>Before we finalize the strategy report heading to President Trump, we need your direct input on these key questions:</p>
+
+        <table>
+          <tr>
+            <th>Question</th>
+            <th>Your Answer</th>
+          </tr>
+          <tr>
+            <td>Do you support a full ban on foreign funding in U.S. elections?</td>
+            <td>✅ Yes</td>
+          </tr>
+          <tr>
+            <td>Should Republicans prioritize flipping the Senate in 2026?</td>
+            <td>✅ Absolutely</td>
+          </tr>
+          <tr>
+            <td>Do you trust the mainstream media’s coverage of GOP candidates?</td>
+            <td>❌ Not at all</td>
+          </tr>
+        </table>
+
+        <a href="{{survey_link}}" class="button">FINISH THE REST OF THE SURVEY NOW</a>
+      </div>
+    </div>
+  </body>
+</html>
