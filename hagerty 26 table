@@ -6,7 +6,7 @@
     <style>
       body {
         font-family: Arial, sans-serif;
-        background-color: #ffff;
+        background-color: #fffff;
         color: #222;
         padding: 20px;
       }
@@ -18,16 +18,9 @@
         border-radius: 8px;
         overflow: hidden;
       }
-      .header {
-        background-color: #b20000;
-        color: #fff;
-        text-align: center;
-        padding: 0;
-      }
       .header img {
         width: 100%;
         display: block;
-        border-bottom: 4px solid #b20000;
       }
       .content {
         padding: 20px;
@@ -37,17 +30,32 @@
         border-collapse: collapse;
         margin-bottom: 20px;
       }
-      th, td {
-        text-align: left;
-        padding: 12px;
-        border-bottom: 1px solid #ddd;
+      td {
+        padding: 15px 10px;
+        border-bottom: 1px solid #eee;
+        vertical-align: middle;
       }
-      th {
-        background-color: #f1f1f1;
+      .question-text {
+        font-size: 14px;
+        font-weight: bold;
+        width: 60%;
       }
-      .button {
+      /* Clickable Button Styling */
+      .choice-btn {
+        display: inline-block;
+        padding: 8px 12px;
+        margin: 2px;
+        text-decoration: none;
+        font-size: 12px;
+        font-weight: bold;
+        border-radius: 4px;
+        color: #ffffff;
+      }
+      .yes-btn { background-color: #28a745; }
+      .no-btn { background-color: #b20000; }
+      
+      .main-button {
         display: block;
-        width: 100%;
         padding: 15px;
         text-align: center;
         background-color: #b20000;
@@ -55,10 +63,6 @@
         text-decoration: none;
         font-weight: bold;
         border-radius: 5px;
-        margin-top: 10px;
-      }
-      .button:hover {
-        background-color: #8f0000;
       }
     </style>
   </head>
@@ -73,24 +77,29 @@
 
         <table>
           <tr>
-            <th>Question</th>
-            <th>Your Answer</th>
+            <td class="question-text">Do you support a full ban on foreign funding in U.S. elections?</td>
+            <td style="text-align: right; white-space: nowrap;">
+              <a href="{{survey_link}}&q1=yes" class="choice-btn yes-btn">YES</a>
+              <a href="{{survey_link}}&q1=no" class="choice-btn no-btn">NO</a>
+            </td>
           </tr>
           <tr>
-            <td>Do you support a full ban on foreign funding in U.S. elections?</td>
-            <td>✅ Yes</td>
+            <td class="question-text">Should Republicans prioritize more border wall funding in 2026?</td>
+            <td style="text-align: right; white-space: nowrap;">
+              <a href="{{survey_link}}&q2=yes" class="choice-btn yes-btn">YES</a>
+              <a href="{{survey_link}}&q2=no" class="choice-btn no-btn">NO</a>
+            </td>
           </tr>
           <tr>
-            <td>Should Republicans prioritize flipping the Senate in 2026?</td>
-            <td>✅ Absolutely</td>
-          </tr>
-          <tr>
-            <td>Do you trust the mainstream media’s coverage of GOP candidates?</td>
-            <td>❌ Not at all</td>
+            <td class="question-text">Do you trust the mainstream media’s coverage of GOP candidates?</td>
+            <td style="text-align: right; white-space: nowrap;">
+              <a href="{{survey_link}}&q3=yes" class="choice-btn yes-btn">YES</a>
+              <a href="{{survey_link}}&q3=no" class="choice-btn no-btn">NO</a>
+            </td>
           </tr>
         </table>
 
-        <a href="{{survey_link}}" class="button">FINISH THE REST OF THE SURVEY NOW</a>
+        <a href="{{survey_link}}" class="main-button">SEE THE REST OF THE QUESTIONS & SUBMIT SURVEY</a>
       </div>
     </div>
   </body>
