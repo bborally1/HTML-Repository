@@ -1,0 +1,22 @@
+<table width="100%" border="0" cellspacing="0" cellpadding="0" style="margin: 20px 0;">
+  <tr>
+    <td align="center">
+      <table border="0" cellspacing="0" cellpadding="20" style="width: 100%; max-width: 500px; border: 3px solid #D4AF37; background-color: #ffff; border-radius: 10px; font-family: 'Arial Black', Arial, sans-serif;">
+        <tr>
+          <td align="center">
+            <span style="color: #333; font-size: 14px; text-transform: uppercase; letter-spacing: 1px;">OFFICIAL MAGA UPGRADE FOR:</span><br>
+            <span style="color: #D4AF37; font-size: 26px; font-weight: bold;">${Recipient.FIRST_NAME}</span>
+            
+            <p style="color: #444; font-size: 16px; font-family: Arial, sans-serif; line-height: 1.4; margin: 15px 0;">
+              Your loyalty has been flagged. I have personally authorized your <strong>GOLD MAGA STATUS</strong>. Claim it before it is reassigned at midnight.
+            </p>
+
+            <a href="YOUR_LINK_HERE" style="background-color: #D4AF37; color: #ffffff; display: inline-block; padding: 18px 25px; text-decoration: none; border-radius: 5px; font-size: 20px; font-weight: bold; border-bottom: 3px solid #B8860B;">
+              👉 CLAIM YOUR MAGA STATUS NOW
+            </a>
+          </td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+</table>
