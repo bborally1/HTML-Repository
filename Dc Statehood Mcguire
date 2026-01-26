@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>D.C. Statehood Tracker</title>
+</head>
+
+<body style="margin:0;padding:0;background-color:#f3f4f6;font-family:Arial,Helvetica,sans-serif;">
+
+<table width="100%" cellpadding="0" cellspacing="0" border="0" style="background-color:#ffff;">
+<tr>
+<td align="center" style="padding:20px 10px;">
+
+<!-- CARD -->
+<table width="100%" cellpadding="0" cellspacing="0" border="0" style="max-width:340px;background-color:#ffffff;border:1px solid #e5e7eb;">
+
+<!-- HEADER -->
+<tr>
+<td align="center" style="background-color:#1e40af;padding:14px 10px;">
+<span style="color:#ffffff;font-size:13px;font-weight:700;letter-spacing:1px;">
+D.C. STATEHOOD TRACKER
+</span>
+</td>
+</tr>
+
+<!-- CONTENT -->
+<tr>
+<td style="padding:16px;">
+
+<!-- DATE -->
+<p style="margin:0 0 3px;font-size:10px;color:#6b7280;font-weight:700;text-transform:uppercase;">
+Date
+</p>
+<p style="margin:0 0 14px;font-size:13px;color:#111827;font-weight:700;">
+02/01/2026
+</p>
+
+<!-- NAME BOX -->
+<table width="100%" cellpadding="0" cellspacing="0" border="0" style="margin-bottom:14px;">
+<tr>
+<td style="background-color:#dc2626;padding:12px;">
+<p style="margin:0 0 3px;font-size:10px;color:#ffffff;text-transform:uppercase;font-weight:700;">
+Name
+</p>
+<p style="margin:0;font-size:18px;color:#ffffff;font-weight:800;">
+${Recipient.FIRST_NAME}
+</p>
+</td>
+</tr>
+</table>
+
+<!-- EMAIL -->
+<p style="margin:0 0 3px;font-size:10px;color:#6b7280;font-weight:700;text-transform:uppercase;">
+Email
+</p>
+<p style="margin:0 0 14px;font-size:12px;color:#374151;word-break:break-all;">
+${Recipient.EMAIL}
+</p>
+
+<!-- STATUS -->
+<p style="margin:0 0 3px;font-size:10px;color:#6b7280;font-weight:700;text-transform:uppercase;">
+Status
+</p>
+
+<table cellpadding="0" cellspacing="0" border="0" style="margin-bottom:18px;">
+<tr>
+<td style="background-color:#fbbf24;padding:6px 10px;font-size:11px;font-weight:700;color:#78350f;text-transform:uppercase;">
+SUPPORTER
+</td>
+</tr>
+</table>
+
+<!-- BUTTON -->
+<table width="100%" cellpadding="0" cellspacing="0" border="0">
+<tr>
+<td align="center" bgcolor="#b91c1c">
+<a href="#" 
+style="display:block;padding:12px 18px;color:#ffffff;font-size:12px;font-weight:700;text-decoration:none;text-transform:uppercase;">
+Correct The Record →
+</a>
+</td>
+</tr>
+</table>
+
+</td>
+</tr>
+
+
+</td>
+</tr>
+</table>
+
+</body>
+</html>
