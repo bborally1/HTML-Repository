@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2026 GOP Membership Contributions</title>
+</head>
+<body style="margin: 0; padding: 0; font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif; background-color: #ffff;">
+    
+    <!-- Main Container -->
+    <table width="100%" cellpadding="0" cellspacing="0" border="0" style="background-color: #fffff; padding: 20px 0;">
+        <tr>
+            <td align="center">
+                
+                <!-- Content Table -->
+                <table width="600" cellpadding="0" cellspacing="0" border="0" style="background-color: #ffffff; border-radius: 8px; overflow: hidden; box-shadow: 0 4px 12px rgba(0,0,0,0.15);">
+                    
+                    <!-- Header -->
+                    <tr>
+                        <td style="background-color: #c9302c; background-image: linear-gradient(135deg, #c9302c 0%, #a02622 100%); padding: 40px 30px; text-align: center; position: relative;">
+                            <table width="100%" cellpadding="0" cellspacing="0" border="0">
+                                <tr>
+                                    <td align="center">
+                                        <div style="color: #ffffff; font-size: 18px; margin-bottom: 5px;">⭐⭐⭐</div>
+                                        <h1 style="margin: 0; padding: 0; color: #ffffff; font-size: 32px; font-weight: bold; letter-spacing: 1px; text-shadow: 2px 2px 4px rgba(0,0,0,0.3);">2026 GOP MEMBERSHIP</h1>
+                                        <p style="margin: 10px 0 0 0; padding: 0; color: #ffffff; font-size: 16px; font-style: italic; opacity: 0.95;">Supporting Conservative Values Across America</p>
+                                        <div style="color: #ffffff; font-size: 18px; margin-top: 5px;">⭐⭐⭐</div>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                    
+                    <!-- Spacer -->
+                    <tr>
+                        <td style="background-color: #f8f9fa; padding: 30px 30px 10px 30px;">
+                            <p style="margin: 0 0 20px 0; padding: 0; color: #2e3d5f; font-size: 16px; font-weight: 600; text-align: center;">Your 2026 Membership Status</p>
+                        </td>
+                    </tr>
+                    
+                    <!-- Data Table -->
+                    <tr>
+                        <td style="background-color: #f8f9fa; padding: 0 30px 30px 30px;">
+                            <table width="100%" cellpadding="12" cellspacing="0" border="0" style="background-color: #ffffff; border-radius: 6px; overflow: hidden; border: 1px solid #e0e0e0;">
+                                
+                                <!-- Table Header -->
+                                <tr style="background-color: #2e3d5f;">
+                                    <th style="padding: 15px 12px; text-align: left; color: #ffffff; font-size: 12px; font-weight: 600; text-transform: uppercase; letter-spacing: 0.5px; border-bottom: 3px solid #c9302c;">NAME</th>
+                                    <th style="padding: 15px 12px; text-align: left; color: #ffffff; font-size: 12px; font-weight: 600; text-transform: uppercase; letter-spacing: 0.5px; border-bottom: 3px solid #c9302c;">STATE</th>
+                                    <th style="padding: 15px 12px; text-align: left; color: #ffffff; font-size: 12px; font-weight: 600; text-transform: uppercase; letter-spacing: 0.5px; border-bottom: 3px solid #c9302c;">STATUS</th>
+                                    <th style="padding: 15px 12px; text-align: left; color: #ffffff; font-size: 12px; font-weight: 600; text-transform: uppercase; letter-spacing: 0.5px; border-bottom: 3px solid #c9302c;">AMOUNT</th>
+                                </tr>
+                                
+                                <!-- Row 1 -->
+                                <tr style="border-bottom: 1px solid #e9ecef;">
+                                    <td style="padding: 15px 12px; color: #2e3d5f; font-size: 15px; font-weight: 600;">Robert K.</td>
+                                    <td style="padding: 15px 12px; color: #333333; font-size: 15px;">PA</td>
+                                    <td style="padding: 15px 12px;">
+                                        <span style="display: inline-block; padding: 6px 12px; background-color: #28a745; color: #ffffff; border-radius: 20px; font-size: 11px; font-weight: 600; text-transform: uppercase; letter-spacing: 0.5px;">CONFIRMED</span>
+                                    </td>
+                                    <td style="padding: 15px 12px; font-size: 18px; font-weight: bold; color: #c9302c;">$50</td>
+                                </tr>
+                                
+                                <!-- Row 2 -->
+                                <tr style="border-bottom: 1px solid #e9ecef;">
+                                    <td style="padding: 15px 12px; color: #2e3d5f; font-size: 15px; font-weight: 600;">Linda S.</td>
+                                    <td style="padding: 15px 12px; color: #333333; font-size: 15px;">NC</td>
+                                    <td style="padding: 15px 12px;">
+                                        <span style="display: inline-block; padding: 6px 12px; background-color: #28a745; color: #ffffff; border-radius: 20px; font-size: 11px; font-weight: 600; text-transform: uppercase; letter-spacing: 0.5px;">CONFIRMED</span>
+                                    </td>
+                                    <td style="padding: 15px 12px; font-size: 18px; font-weight: bold; color: #c9302c;">$25</td>
+                                </tr>
+                                
+                                <!-- Row 3 - Highlighted -->
+                                <tr style="background-color: #ffff; border-bottom: 1px solid #e9ecef;">
+                                    <td style="padding: 15px 12px; color: #c9302c; font-size: 15px; font-weight: 700;">${Recipient.FIRST_NAME}</td>
+                                    <td style="padding: 15px 12px; color: #333333; font-size: 15px;">ON FILE</td>
+                                    <td style="padding: 15px 12px;">
+                                        <span style="display: inline-block; padding: 6px 12px; background-color: #ffc107; color: #333333; border-radius: 20px; font-size: 11px; font-weight: 600; text-transform: uppercase; letter-spacing: 0.5px;">NOT YET</span>
+                                    </td>
+                                    <td style="padding: 15px 12px; font-size: 18px; font-weight: bold; color: #c9302c;">$15</td>
+                                </tr>
+                                
+                                <!-- Row 4 -->
+                                <tr>
+                                    <td style="padding: 15px 12px; color: #2e3d5f; font-size: 15px; font-weight: 600;">James P.</td>
+                                    <td style="padding: 15px 12px; color: #333333; font-size: 15px;">WI</td>
+                                    <td style="padding: 15px 12px;">
+                                        <span style="display: inline-block; padding: 6px 12px; background-color: #28a745; color: #ffffff; border-radius: 20px; font-size: 11px; font-weight: 600; text-transform: uppercase; letter-spacing: 0.5px;">CONFIRMED</span>
+                                    </td>
+                                    <td style="padding: 15px 12px; font-size: 18px; font-weight: bold; color: #c9302c;">$15</td>
+                                </tr>
+                                
+                            </table>
+                        </td>
+                    </tr>
+                    
+                    <!-- CTA Button -->
+                    <tr>
+                        <td style="background-color: #f8f9fa; padding: 30px; text-align: center;">
+                            <table width="100%" cellpadding="0" cellspacing="0" border="0">
+                                <tr>
+                                    <td align="center">
+                                        <!-- Button -->
+                                        <table cellpadding="0" cellspacing="0" border="0" style="margin: 0 auto;">
+                                            <tr>
+                                                <td align="center" style="background-color: #c9302c; background-image: linear-gradient(135deg, #c9302c 0%, #a02622 100%); border-radius: 50px; box-shadow: 0 4px 12px rgba(201, 48, 44, 0.4);">
+                                                    <a href="#" style="display: inline-block; padding: 18px 45px; color: #ffffff; font-size: 16px; font-weight: bold; text-decoration: none; text-transform: uppercase; letter-spacing: 1px; border-radius: 50px;">
+                                                        CONFIRM YOUR MEMBERSHIP NOW
+                                                    </a>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                        <p style="margin: 15px 0 0 0; padding: 0; color: #666666; font-size: 13px; font-style: italic;">
+                                            Join your fellow patriots today!
+                                        </p>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                    
+      
+                    
+                </table>
+                
+            </td>
+        </tr>
+    </table>
+    
+</body>
+</html>
