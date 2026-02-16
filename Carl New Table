@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reserved Spot Notification</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #fffff;
+            margin: 0;
+            padding: 20px;
+        }
+        
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            background-color: #ffffff;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        
+        .header {
+            background-color: #d32f2f;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        
+        .header h1 {
+            margin: 0;
+            font-size: 24px;
+            font-weight: bold;
+        }
+        
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        
+        td {
+            padding: 20px;
+            text-align: center;
+        }
+        
+        .spot-saved {
+            background-color: #fff3cd;
+            border-bottom: 2px solid #ffc107;
+            font-size: 20px;
+            font-weight: bold;
+            color: #856404;
+        }
+        
+        .time-left {
+            background-color: #f8d7da;
+            border-bottom: 2px solid #f5c6cb;
+            font-size: 18px;
+            color: #721c24;
+        }
+        
+        .cta {
+            background-color: #ffffff;
+            padding: 30px 20px;
+        }
+        
+        .cta-button {
+            display: inline-block;
+            background-color: #d32f2f;
+            color: white;
+            padding: 15px 40px;
+            text-decoration: none;
+            font-size: 20px;
+            font-weight: bold;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+        
+        .cta-button:hover {
+            background-color: #b71c1c;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>⚠️ URGENT ACTION REQUIRED</h1>
+        </div>
+        
+        <table>
+            <tr>
+                <td class="spot-saved">
+                    🎯 Vice President Vance Letter TOP Spot Saved for: <span style="text-decoration: underline;">${Recipient.FIRST_NAME}</span>
+                </td>
+            </tr>
+            <tr>
+                <td class="time-left">
+                    ⏰ Time Left for ${Recipient.FIRST_NAME} to Submit: <strong>60 Minutes</strong>
+                </td>
+            </tr>
+            <tr>
+                <td class="cta">
+                    <a href="#" class="cta-button">LAST CHANCE - SIGN HERE</a>
+                </td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>
