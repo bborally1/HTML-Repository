@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;600;700&family=Lato:wght@400;700&display=swap" rel="stylesheet">
+<style>
+  body {
+    background: #fffff;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 30px 10px;
+    font-family: 'Lato', sans-serif;
+  }
+
+  .email-wrapper {
+    width: 620px;
+    background: #ffffff;
+    border-radius: 6px;
+    overflow: hidden;
+    box-shadow: 0 4px 24px rgba(0,0,0,0.15);
+  }
+
+  /* HEADER BANNER */
+  .header-banner {
+    background: linear-gradient(135deg, #BF0A30 0%, #8B0000 50%, #BF0A30 100%);
+    padding: 28px 32px 20px;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+
+
+  }
+  .header-title {
+    font-family: 'Oswald', sans-serif;
+    font-size: 26px;
+    font-weight: 700;
+    color: #FFD700;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    text-shadow: 0 2px 6px rgba(0,0,0,0.4);
+    margin: 0;
+  }
+  .header-sub {
+    color: rgba(255,255,255,0.85);
+    font-size: 12px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-top: 4px;
+    font-family: 'Lato', sans-serif;
+  }
+
+  /* NAME TAG HERO */
+  .name-tag-section {
+    background: linear-gradient(180deg, #002868 0%, #003a99 100%);
+    padding: 28px 32px;
+    text-align: center;
+  }
+  .name-tag-label {
+    font-family: 'Lato', sans-serif;
+    font-size: 11px;
+    color: rgba(255,255,255,0.6);
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    margin-bottom: 8px;
+  }
+  .name-tag-value {
+    display: inline-block;
+    background: #FFD700;
+    color: #002868;
+    font-family: 'Oswald', sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    letter-spacing: 4px;
+    padding: 12px 36px;
+    border-radius: 4px;
+    text-transform: uppercase;
+    box-shadow: 0 0 0 3px #fff, 0 0 0 6px #FFD700, 0 8px 20px rgba(0,0,0,0.35);
+    position: relative;
+  }
+  .name-tag-greeting {
+    color: rgba(255,255,255,0.75);
+    font-size: 13px;
+    margin-top: 12px;
+    letter-spacing: 1px;
+  }
+
+  /* TABLE AREA */
+  .table-wrapper {
+    padding: 28px 32px;
+  }
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    table-layout: fixed;
+  }
+
+  thead tr {
+    background: #002868;
+  }
+  thead th {
+    font-family: 'Oswald', sans-serif;
+    font-size: 11px;
+    color: #FFD700;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    padding: 10px 16px;
+    text-align: left;
+  }
+  thead th:last-child { text-align: center; }
+
+  tbody tr {
+    border-bottom: 1px solid #e8e8e8;
+    transition: background 0.2s;
+  }
+  tbody tr:nth-child(odd) { background: #fafafa; }
+  tbody tr:hover { background: #f0f4ff; }
+
+  td {
+    padding: 14px 16px;
+    vertical-align: middle;
+  }
+
+  .metric-label {
+    font-family: 'Oswald', sans-serif;
+    font-size: 14px;
+    color: #111;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+  }
+  .metric-detail {
+    font-size: 11px;
+    color: #888;
+    margin-top: 2px;
+    letter-spacing: 0.3px;
+  }
+
+  .badge {
+    display: inline-block;
+    padding: 5px 14px;
+    border-radius: 3px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+    text-align: center;
+  }
+  .badge-fail {
+    background: #BF0A30;
+    color: #fff;
+    box-shadow: inset 0 -3px 0 rgba(0,0,0,0.25);
+  }
+  .badge-time {
+    background: #002868;
+    color: #FFD700;
+    font-size: 12px;
+    padding: 5px 12px;
+  }
+  .badge-unconfirmed {
+    background: #e8a000;
+    color: #fff;
+    font-size: 12px;
+  }
+
+  td:last-child {
+    text-align: center;
+  }
+
+  /* CTA BUTTON */
+  .cta-section {
+    padding: 0 32px 32px;
+    text-align: center;
+  }
+  .cta-divider {
+    border: none;
+    border-top: 2px solid #BF0A30;
+    margin-bottom: 24px;
+  }
+  .cta-btn {
+    display: inline-block;
+    background: linear-gradient(135deg, #BF0A30, #8B0000);
+    color: #FFD700;
+    font-family: 'Oswald', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    padding: 16px 44px;
+    border-radius: 4px;
+    text-decoration: none;
+    box-shadow: 0 4px 16px rgba(191,10,48,0.45), 0 0 0 3px #FFD700;
+    cursor: pointer;
+    border: none;
+    transition: transform 0.15s, box-shadow 0.15s;
+  }
+  .cta-btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(191,10,48,0.5), 0 0 0 3px #FFD700;
+  }
+  .cta-sub {
+    font-size: 11px;
+    color: #aaa;
+    margin-top: 12px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+  }
+
+  /* FOOTER */
+  .footer {
+    background: #111;
+    padding: 16px 32px;
+    text-align: center;
+  }
+  .footer-stars {
+    color: #FFD700;
+    font-size: 14px;
+    letter-spacing: 6px;
+  }
+  .footer-text {
+    color: rgba(255,255,255,0.4);
+    font-size: 10px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    margin-top: 6px;
+  }
+</style>
+</head>
+<body>
+<div class="email-wrapper">
+
+  <!-- HEADER -->
+  <div class="header-banner">
+    <p class="header-title">🇺🇸 President Trump Agenda Report 🇺🇸</p>
+    <p class="header-sub">Constituent Scorecard — Confidential Briefing</p>
+  </div>
+
+  <!-- NAME TAG -->
+  <div class="name-tag-section">
+    <div class="name-tag-label">Report Prepared For</div>
+    <div class="name-tag-value">${Recipient.FIRST_NAME}</div>
+    <div class="name-tag-greeting">Your personalized score is ready. See details below.</div>
+  </div>
+
+  <!-- TABLE -->
+  <div class="table-wrapper">
+    <table>
+      <thead>
+        <tr>
+          <th style="width:60%">Category</th>
+          <th style="width:40%">Status / Score</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>
+            <div class="metric-label">Trump Agenda Score</div>
+            <div class="metric-detail">Overall alignment with the America First agenda</div>
+          </td>
+          <td><span class="badge badge-fail">F</span></td>
+        </tr>
+        <tr>
+          <td>
+            <div class="metric-label">Leadership Review</div>
+            <div class="metric-detail">Scheduled evaluation period</div>
+          </td>
+          <td><span class="badge badge-time">Tomorrow Morning</span></td>
+        </tr>
+        <tr>
+          <td>
+            <div class="metric-label">Stance Against Illegal Immigration</div>
+            <div class="metric-detail">Position verification required</div>
+          </td>
+          <td><span class="badge badge-unconfirmed">Not Confirmed</span></td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <!-- CTA -->
+  <div class="cta-section">
+    <hr class="cta-divider">
+    <a class="cta-btn" href="#">⭐ Update Your Stance Here ⭐</a>
+    <p class="cta-sub">Action required before your leadership review</p>
+  </div>
+
+</div>
+</body>
+</html>
