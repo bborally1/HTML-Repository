@@ -1,0 +1,128 @@
+<div style="font-family: Arial, Helvetica, sans-serif; font-size: 20px; line-height: 1.7; color: #111111; text-align: left; width: 100%; max-width: 2000px; padding: 0 8px; margin: 0;">
+
+<span>Hi ${Recipient.FIRST_NAME}, forwarding this from Sophie because I really think people need to hear it.</span>
+
+<br><br>
+
+<span>She’s right. Grassroots conservatives are getting burned out by all the fake “membership roll” threats and constant panic messaging.</span>
+
+<br><br>
+
+<span>But at the same time, Democrats are absolutely flooding Governor races with money right now because they know these races will decide whether President Trump’s agenda actually survives at the state level.</span>
+
+<br><br>
+
+<span>The RGA is trying to do this differently. No fake deadlines. No guilt trips.</span>
+
+
+<span>Just an honest ask.</span>
+
+<br><br>
+
+<span>If you can help us defend conservative Governors, here’s the secure link Sophie mentioned below:</span>
+
+
+<a href="LINK" style="color:#2f5fa7;font-weight:bold;text-decoration:underline;">
+Contribute Securely Here
+</a>
+
+<br><br>
+
+<span>Thanks again for standing with us.</span>
+
+<br><br>
+
+<span>-Kollin</span>
+
+<br><br>
+
+<div style="border-left:2px solid #cccccc;padding-left:16px;margin-top:24px;color:#444444;">
+
+<div style="font-size:16px;line-height:1.5;color:#555555;">
+---------- Forwarded message ---------<br>
+From: Sophie, Republican Governors Association<br>
+Subject: A quick note
+</div>
+
+<br>
+
+<div style="font-size:18px;line-height:1.7;color:#333333;">
+
+<span>Hi ${Recipient.FIRST_NAME}, I wanted to reach out personally because a lot of conservatives are frustrated right now. Honestly, I don’t blame them. Too many political groups treat grassroots supporters like ATMs. They send fake threats, pretend every message is from President Trump himself, and never even stop to say thank you.</span>
+
+<br><br>
+
+<span>That’s not how we do things at the Republican Governors Association.</span>
+
+<br><br>
+
+<span>My name is Sophie, and I work with the RGA team helping support conservative Governors across the country. I just wanted to personally thank you for standing with the America First movement already. We truly appreciate it.</span>
+
+<br><br>
+
+<span>But I also need to be honest with you: Democrats are coming into 2026 organized, angry, and loaded with cash. They’re targeting Governor races all across the country because they know Governors control election law, veto power, public safety policy, and the firewall against the Radical Left’s agenda. If Democrats take these Governor mansions, they’ll use them to block President Trump, protect sanctuary state policies, and push the same failed agenda we’ve seen destroy states like California and Illinois.</span>
+
+<br><br>
+
+<span>That’s why support from grassroots conservatives matters so much right now. And unlike a lot of organizations, we’re not going to threaten you or guilt you if you can’t give today.</span>
+
+<br><br>
+
+<span>But if you are able to chip in a few dollars to help defend conservative Governors, it would genuinely mean a lot. 
+<a href="LINK" style="color:#2f5fa7;font-weight:bold;text-decoration:underline;">
+You can contribute securely here using this secure one-time link.
+</a>
+</span>
+
+<br><br>
+
+<span>Either way, thank you again for everything you do for this movement. We wouldn’t be in this fight without people like you.</span>
+
+<br><br>
+
+<span>-Sophie<br>Republican Governors Association</span>
+
+</div>
+</div>
+
+<br><br><br><br>
+
+</div>
+
+<tr bgcolor="#f3f3f3" text="#000000" style="background-color:#f3f3f3;">
+  <td align="center" valign="top" style="padding:40px 20px;">
+
+    <table width="100%" cellpadding="0" cellspacing="0" border="0" style="max-width:700px;border-spacing:0;">
+      <tr>
+        <td style="font-family:Arial,Helvetica,sans-serif;font-size:14px;line-height:1.7;color:#222222;text-align:left;">
+
+          Paid for by The Republican Governors Association.<br>
+
+          <br><br>
+
+          Contributions to the Republican Governors Association are not deductible as charitable contributions for federal income tax purposes. Contributions from corporations, foreign nationals without permanent residency status, and federal government contractors are prohibited. Federal law requires us to use our best efforts to collect and report the name, mailing address, occupation, and employer of individuals whose contributions exceed federal thresholds.
+
+          <br><br>
+
+          Republican Governors Association<br>
+          1747 Pennsylvania Ave. NW Suite 250<br>
+          Washington, DC 20006
+
+          <br><br>
+
+          <a alias="Privacy Policy" href="https://www.rga.org/privacy-policy" style="color:#1a73b8;text-decoration:none;">
+            Privacy Policy
+          </a>
+
+          <br><br>
+
+          <a href="{{UnsubscribeLink}}" style="color:#1a73b8;text-decoration:none;">
+            Unsubscribe
+          </a>
+
+        </td>
+      </tr>
+    </table>
+
+  </td>
+</tr>
