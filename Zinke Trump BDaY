@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Happy Birthday, Mr. President</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400&family=EB+Garamond:ital,wght@0,400;0,500;1,400&display=swap');
+
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    body {
+      background-color: #f0ece4;
+      font-family: 'EB Garamond', Georgia, serif;
+      color: #1a1a2e;
+    }
+
+    .email-wrapper {
+      background-color: #ffff;
+      padding: 20px 16px;
+    }
+
+    .email-container {
+      max-width: 560px;
+      margin: 0 auto;
+      background: #ffffff;
+      border-top: 4px solid #b22234;
+      border-bottom: 4px solid #3c3b6e;
+      box-shadow: 0 4px 24px rgba(0,0,0,0.10);
+    }
+
+    /* ── HEADER ── */
+    .header {
+      background: linear-gradient(160deg, #3c3b6e 0%, #1a1a2e 100%);
+      padding: 20px 32px 16px;
+      text-align: center;
+    }
+
+    .header-flag-bar {
+      display: flex;
+      height: 3px;
+      margin-bottom: 14px;
+      border-radius: 2px;
+      overflow: hidden;
+    }
+    .flag-red   { background: #b22234; flex: 1; }
+    .flag-white { background: #ffffff; flex: 1; }
+    .flag-blue  { background: #3c3b6e; flex: 1; }
+
+    .header h1 {
+      font-family: 'Playfair Display', Georgia, serif;
+      font-size: 26px;
+      font-weight: 900;
+      color: #ffffff;
+      line-height: 1.15;
+    }
+
+    .header h1 span { color: #f5c842; }
+
+    .header-stars {
+      color: rgba(255,255,255,0.3);
+      font-size: 11px;
+      letter-spacing: 6px;
+      margin-top: 10px;
+    }
+
+    /* ── ADDRESS BLOCK ── */
+    .address-block {
+      background: #faf8f4;
+      border-left: 3px solid #b22234;
+      padding: 12px 32px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 12px;
+      flex-wrap: wrap;
+    }
+
+    .address-label {
+      font-family: 'Playfair Display', Georgia, serif;
+      font-weight: 700;
+      font-size: 10px;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      color: #b22234;
+      display: block;
+      margin-bottom: 2px;
+    }
+
+    .address-value {
+      font-family: 'EB Garamond', Georgia, serif;
+      font-size: 14px;
+      color: #1a1a2e;
+    }
+
+    .personalization {
+      font-family: 'Playfair Display', Georgia, serif;
+      font-weight: 700;
+      font-size: 15px;
+      color: #3c3b6e;
+      background: linear-gradient(135deg, #eef0ff, #dde2ff);
+      padding: 1px 8px;
+      border-radius: 3px;
+      border: 1px dashed #3c3b6e;
+      display: inline-block;
+    }
+
+    /* ── DIVIDER ── */
+    .divider {
+      height: 1px;
+      background: linear-gradient(to right, transparent, #d4c9a8, transparent);
+      margin: 0 32px;
+    }
+
+    /* ── LETTER BODY ── */
+    .letter-body {
+      padding: 24px 32px 16px;
+    }
+
+    .salutation {
+      font-family: 'Playfair Display', Georgia, serif;
+      font-size: 17px;
+      font-weight: 700;
+      color: #1a1a2e;
+      margin-bottom: 16px;
+    }
+
+    .letter-body p {
+      font-family: 'EB Garamond', Georgia, serif;
+      font-size: 16px;
+      line-height: 1.75;
+      color: #2c2c3e;
+      margin-bottom: 12px;
+    }
+
+    .letter-body p.lead {
+      font-size: 18px;
+      font-style: italic;
+      color: #b22234;
+      font-weight: 500;
+    }
+
+    .pullquote {
+      border-left: 3px solid #f5c842;
+      background: linear-gradient(135deg, #fffdf0, #fff9d6);
+      padding: 12px 18px;
+      margin: 14px 0;
+      border-radius: 0 4px 4px 0;
+    }
+
+    .pullquote p {
+      font-style: italic;
+      color: #1a1a2e !important;
+      margin-bottom: 0 !important;
+      font-size: 16px !important;
+    }
+
+    /* ── CLOSING ── */
+    .closing-block {
+      padding: 4px 32px 20px;
+    }
+
+    .closing-text {
+      font-family: 'EB Garamond', Georgia, serif;
+      font-size: 16px;
+      color: #2c2c3e;
+      line-height: 1.6;
+    }
+
+    .signed-label {
+      font-family: 'Playfair Display', Georgia, serif;
+      font-weight: 700;
+      font-size: 10px;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      color: #b22234;
+      margin-top: 14px;
+      margin-bottom: 4px;
+    }
+
+    .signed-name {
+      font-size: 18px !important;
+    }
+
+    .signed-title {
+      font-family: 'EB Garamond', Georgia, serif;
+      font-size: 13px;
+      font-style: italic;
+      color: #666;
+      margin-top: 3px;
+    }
+
+    /* ── CTA SECTION ── */
+    .cta-section {
+      background: linear-gradient(160deg, #1a1a2e 0%, #3c3b6e 100%);
+      padding: 22px 32px;
+      text-align: center;
+    }
+
+    .cta-button {
+      display: inline-block;
+      background: linear-gradient(135deg, #b22234, #8b1a27);
+      color: #ffffff !important;
+      text-decoration: none;
+      font-family: 'Playfair Display', Georgia, serif;
+      font-weight: 700;
+      font-size: 14px;
+      letter-spacing: 1.5px;
+      text-transform: uppercase;
+      padding: 13px 36px;
+      border-radius: 3px;
+      border: 1px solid rgba(255,255,255,0.15);
+      box-shadow: 0 3px 14px rgba(178, 34, 52, 0.4);
+    }
+
+    .cta-button:hover {
+      background: linear-gradient(135deg, #c9283c, #b22234);
+    }
+
+    .stars-row {
+      color: #f5c842;
+      font-size: 14px;
+      letter-spacing: 6px;
+      margin-top: 14px;
+      opacity: 0.6;
+    }
+
+    @media (max-width: 480px) {
+      .header { padding: 16px 20px 12px; }
+      .header h1 { font-size: 22px; }
+      .address-block { padding: 10px 20px; }
+      .divider { margin: 0 20px; }
+      .letter-body { padding: 18px 20px 12px; }
+      .closing-block { padding: 4px 20px 16px; }
+      .cta-section { padding: 18px 20px; }
+    }
+  </style>
+</head>
+<body>
+
+<div class="email-wrapper">
+  <div class="email-container">
+
+    <!-- HEADER -->
+    <div class="header">
+      <div class="header-flag-bar">
+        <div class="flag-red"></div>
+        <div class="flag-white"></div>
+        <div class="flag-blue"></div>
+      </div>
+      <h1>Happy Birthday, <span>Mr. President</span></h1>
+      <div class="header-stars">★ &nbsp; ★ &nbsp; ★ &nbsp; ★ &nbsp; ★</div>
+    </div>
+
+    <!-- ADDRESS BLOCK -->
+    <div class="address-block">
+      <div>
+        <span class="address-label">To</span>
+        <span class="address-value">President Donald J. Trump</span>
+      </div>
+      <div>
+        <span class="address-label">From</span>
+        <span class="address-value personalization">${Recipient.FIRST_NAME}</span>
+      </div>
+    </div>
+
+    <div class="divider"></div>
+
+    <!-- LETTER BODY -->
+    <div class="letter-body">
+      <p class="salutation">Dear President Trump,</p>
+
+      <p class="lead">Happy Birthday.</p>
+
+      <p>Today, I want to thank you for your courage, your leadership, and your willingness to fight for the American people no matter the cost.</p>
+
+      <div class="pullquote">
+        <p>"For years, you've faced attacks that would have caused most people to walk away. Instead, you stood strong and continued putting America First."</p>
+      </div>
+
+      <p>Your determination, resilience, and love of country have inspired millions of patriots, including me.</p>
+
+      <p>As you celebrate your birthday, I want you to know that you are not standing alone.</p>
+
+      <p>I am proud to stand with you, proud to support the America First movement, and proud to wish you a very happy birthday.</p>
+
+      <p>May God bless you, your family, and the United States of America.</p>
+
+      <p><strong>Happy Birthday, Mr. President.</strong></p>
+    </div>
+
+    <!-- CLOSING -->
+    <div class="closing-block">
+      <p class="closing-text">Signed,</p>
+      <p class="signed-label">Proud Patriot</p>
+      <p class="address-value personalization signed-name">${Recipient.FIRST_NAME}</p>
+      <p class="signed-title">Proud America First Patriot</p>
+    </div>
+
+    <!-- CTA -->
+    <div class="cta-section">
+      <a href="#" class="cta-button">✦ &nbsp;Add Your Name Now &nbsp;✦</a>
+      <div class="stars-row">★ &nbsp; ★ &nbsp; ★ &nbsp; ★ &nbsp; ★</div>
+    </div>
+
+  </div>
+</div>
+
+</body>
+</html>
