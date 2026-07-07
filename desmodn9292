@@ -1,0 +1,64 @@
+<body style="margin:0; padding:0; background-color:#ffff; font-family: -apple-system, 'Helvetica Neue', Arial, sans-serif;">
+  <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="background-color:#ffff; padding: 32px 0;">
+    <tr>
+      <td align="center">
+        <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="max-width:460px; background-color:#161618; border-radius:14px; overflow:hidden; border:1px solid #2a2a2e;">
+
+          <!-- Eyebrow -->
+          <tr>
+            <td style="padding:22px 32px 0; text-align:center;">
+              <span style="font-size:11px; font-weight:700; letter-spacing:3px; text-transform:uppercase; color:#e5484d;">Final Count &middot; Midnight</span>
+            </td>
+          </tr>
+
+          <!-- Counter -->
+          <tr>
+            <td style="padding:14px 32px 4px; text-align:center;">
+              <div style="font-size:72px; font-weight:800; color:#ffffff; line-height:1; letter-spacing:-2px; font-family: Georgia, 'Times New Roman', serif;">3</div>
+              <div style="font-size:13px; color:#8e8e93; margin-top:8px; letter-spacing:0.3px;">signatures still needed to stop D.C. statehood</div>
+            </td>
+          </tr>
+
+          <!-- Divider -->
+          <tr>
+            <td style="padding:22px 32px 0;">
+              <div style="height:1px; background-color:#2a2a2e;"></div>
+            </td>
+          </tr>
+
+          <!-- Body -->
+          <tr>
+            <td style="padding:22px 32px 6px; text-align:center;">
+              <p style="margin:0 0 4px; font-size:15px; color:#8e8e93;">This one's for</p>
+              <p style="margin:0; font-size:22px; font-weight:700; color:#0b0b0d; background-color:#e5484d; display:inline-block; padding:6px 18px; border-radius:8px; letter-spacing:0.2px;">${Recipient.FIRST_NAME}</p>
+            </td>
+          </tr>
+
+          <tr>
+            <td style="padding:16px 32px 8px; text-align:center; font-size:15px; color:#c7c7cc; line-height:1.6;">
+              You're one of the last three. Thirty seconds, just your name.
+            </td>
+          </tr>
+
+          <!-- CTA -->
+          <tr>
+            <td style="padding:20px 32px 30px; text-align:center;">
+              <a href="#" style="display:inline-block; background-color:#e5484d; color:#ffffff; text-decoration:none; font-size:16px; font-weight:700; padding:16px 42px; border-radius:999px; letter-spacing:0.3px;">
+                SIGN NOW &rarr;
+              </a>
+            </td>
+          </tr>
+
+          <!-- Footer -->
+          <tr>
+            <td style="padding:0 32px 24px; text-align:center; font-size:12px; color:#5b5b5e; letter-spacing:0.2px;">
+              - Team Desmond
+            </td>
+          </tr>
+
+        </table>
+      </td>
+    </tr>
+  </table>
+</body>
+</html>
