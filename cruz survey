@@ -1,0 +1,502 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>2026 Republican Majority Survey</title>
+</head>
+
+<body style="margin:0; padding:0; background-color:#edf0f4; font-family:Arial, Helvetica, sans-serif; color:#111111;">
+
+<table role="presentation" width="100%" cellspacing="0" cellpadding="0" border="0" style="background-color:#ffff;">
+<tr>
+<td align="center" style="padding:24px 10px;">
+
+<table role="presentation" width="100%" cellspacing="0" cellpadding="0" border="0"
+style="max-width:640px; background-color:#ffffff; border:1px solid #d7dbe0;">
+
+<!-- TOP BAR -->
+<tr>
+<td align="center" style="background-color:#0b2340; padding:12px 18px;">
+  <div style="font-size:12px; line-height:16px; color:#d5dfeb; font-weight:bold; letter-spacing:1.7px;">
+    A MESSAGE FROM SENATOR TED CRUZ
+  </div>
+</td>
+</tr>
+
+<!-- CRUZ HERO -->
+<tr>
+<td align="center" style="background-color:#f7f8fa; padding:24px 22px 20px 22px;">
+
+  <table role="presentation" cellspacing="0" cellpadding="0" border="0">
+    <tr>
+      <td align="center"
+        style="background-color:#ffffff; border:4px solid #ffffff; box-shadow:0 2px 7px rgba(0,0,0,0.16); border-radius:100%; overflow:hidden;">
+        <a href="LINK" style="text-decoration:none;">
+          <img
+            src="https://www.myimgcloud.com/1c607e20-ceed-4189-84f3-3d63d38a7c63.jpg"
+            width="170"
+            alt="Senator Ted Cruz"
+            style="display:block; width:170px; max-width:170px; height:auto; border:0; border-radius:100%;"
+          >
+        </a>
+      </td>
+    </tr>
+  </table>
+
+  <div style="font-size:30px; line-height:36px; color:#0b2340; font-weight:900; margin-top:17px;">
+    2026 REPUBLICAN<br>MAJORITY SURVEY
+  </div>
+
+  <div style="width:70px; height:4px; background-color:#b31f2b; margin:13px auto 10px auto;"></div>
+
+  <div style="font-size:14px; line-height:20px; color:#555555; font-weight:bold;">
+    Senator Ted Cruz wants your response.
+  </div>
+
+</td>
+</tr>
+
+<!-- RESPONSE BAR -->
+<tr>
+<td align="center" style="background-color:#b31f2b; padding:10px 15px;">
+  <span style="font-size:13px; line-height:18px; color:#ffffff; font-weight:bold; letter-spacing:.4px;">
+    RESPONSE REQUESTED FROM: ${Recipient.FIRST_NAME}
+  </span>
+</td>
+</tr>
+
+<!-- INTRO -->
+<tr>
+<td style="padding:28px 30px 8px 30px; font-size:18px; line-height:28px;">
+
+<p style="margin:0 0 18px 0;">
+${Recipient.FIRST_NAME},
+</p>
+
+<p style="margin:0 0 18px 0;">
+<strong>Ted Cruz here.</strong>
+</p>
+
+<p style="margin:0 0 21px 0;">
+I have a quick question for you about 2026:
+</p>
+
+<!-- MAIN QUESTION -->
+<table role="presentation" width="100%" cellspacing="0" cellpadding="0" border="0"
+style="background-color:#f7f8fa; border:1px solid #d7dce2; border-top:5px solid #b31f2b;">
+<tr>
+<td align="center" style="padding:20px 19px;">
+
+<div style="font-size:11px; line-height:15px; color:#777777; font-weight:bold; letter-spacing:1.5px; margin-bottom:8px;">
+QUICK POLL
+</div>
+
+<div style="font-size:21px; line-height:30px; color:#111111; font-weight:bold;">
+With President Trump's House Majority hanging by a thread, should Republicans focus ONLY on defending the seats we already have?
+</div>
+
+</td>
+</tr>
+</table>
+
+<!-- MAIN RESPONSE BUTTONS -->
+<table role="presentation" width="100%" cellspacing="0" cellpadding="0" border="0" style="margin-top:14px;">
+<tr>
+<td style="padding-bottom:8px;">
+<a href="LINK"
+style="display:block; background-color:#0b2340; color:#ffffff; text-decoration:none; text-align:center; font-size:16px; line-height:22px; font-weight:bold; padding:14px 12px;">
+YES - PLAY DEFENSE
+</a>
+</td>
+</tr>
+
+<tr>
+<td>
+<a href="LINK"
+style="display:block; background-color:#b31f2b; color:#ffffff; text-decoration:none; text-align:center; font-size:16px; line-height:22px; font-weight:bold; padding:14px 12px;">
+NO - GO ON OFFENSE AND FLIP DEMOCRAT SEATS
+</a>
+</td>
+</tr>
+</table>
+
+<p style="margin:27px 0 7px 0;">
+I know my answer.
+</p>
+
+<p style="margin:0 0 25px 0; text-align:center; font-size:23px; line-height:31px; color:#b31f2b; font-weight:900;">
+WE NEED TO EXPAND<br>PRESIDENT TRUMP'S MAJORITY.
+</p>
+
+<p style="margin:0 0 18px 0;">
+And there is a reason I am asking you this question today.
+</p>
+
+</td>
+</tr>
+
+<!-- TANO FEATURE -->
+<tr>
+<td style="padding:4px 30px 12px 30px;">
+
+<table role="presentation" width="100%" cellspacing="0" cellpadding="0" border="0"
+style="background-color:#0b2340;">
+<tr>
+
+<td width="42%" valign="middle" style="padding:0;">
+  <a href="LINK" style="text-decoration:none;">
+    <img
+      src="https://www.myimgcloud.com/8760ab57-9d10-4285-8936-ba58e02ffda7.webp"
+      width="235"
+      alt="Tano Tijerina"
+      style="display:block; width:100%; max-width:235px; height:auto; border:0;"
+    >
+  </a>
+</td>
+
+<td width="58%" valign="middle" style="padding:17px 16px 17px 18px;">
+
+  <div style="font-size:11px; line-height:15px; color:#cbd6e2; font-weight:bold; letter-spacing:1.4px;">
+    MEET
+  </div>
+
+  <div style="font-size:24px; line-height:29px; color:#ffffff; font-weight:900; margin-top:3px;">
+    TANO TIJERINA
+  </div>
+
+  <div style="font-size:14px; line-height:20px; color:#ffffff; margin-top:7px;">
+    Trump-endorsed Republican running to flip a Democrat-held South Texas seat.
+  </div>
+
+  <div style="margin-top:12px;">
+    <a href="LINK"
+      style="display:inline-block; background-color:#b31f2b; color:#ffffff; text-decoration:none; font-size:12px; line-height:17px; font-weight:bold; padding:9px 12px;">
+      LEARN MORE &gt;&gt;
+    </a>
+  </div>
+
+</td>
+
+</tr>
+</table>
+
+</td>
+</tr>
+
+<!-- TANO STORY -->
+<tr>
+<td style="padding:17px 30px 8px 30px; font-size:18px; line-height:28px;">
+
+<p style="margin:0 0 18px 0;">
+Tano is running for Congress in South Texas in a seat currently held by a Democrat.
+</p>
+
+<p style="margin:0 0 18px 0;">
+And he is exactly the kind of candidate that makes me believe Republicans can go on offense.
+</p>
+
+<table role="presentation" width="100%" cellspacing="0" cellpadding="0" border="0"
+style="margin:23px 0; border:1px solid #e3c979; background-color:#fff9e9;">
+<tr>
+<td align="center" style="padding:18px;">
+
+<div style="font-size:14px; line-height:20px; color:#333333; font-weight:bold;">
+HERE'S THE PART DEMOCRATS WON'T LIKE:
+</div>
+
+<div style="font-size:24px; line-height:31px; color:#b31f2b; font-weight:900; margin-top:6px;">
+TANO USED TO BE<br>ONE OF THEM.
+</div>
+
+</td>
+</tr>
+</table>
+
+<p style="margin:0 0 18px 0;">
+He was elected County Judge as a Democrat.
+</p>
+
+<p style="margin:0 0 9px 0;">
+His conservative values didn't change.
+</p>
+
+<p style="margin:0 0 18px 0;">
+<strong>The Democrat Party did.</strong>
+</p>
+
+<p style="margin:0 0 20px 0;">
+So Tano walked away, became a Republican, earned President Trump's endorsement, and now he is running to flip a Democrat congressional seat RED.
+</p>
+
+<p style="margin:0 0 8px 0;">
+That is why I am asking Republicans across America:
+</p>
+
+</td>
+</tr>
+
+<!-- SURVEY HEADER -->
+<tr>
+<td style="padding:10px 30px 0 30px;">
+
+<table role="presentation" width="100%" cellspacing="0" cellpadding="0" border="0">
+<tr>
+<td align="center" style="background-color:#0b2340; padding:17px 12px; border-bottom:4px solid #b31f2b;">
+
+<div style="font-size:11px; line-height:15px; color:#cbd6e2; font-weight:bold; letter-spacing:1.5px;">
+OFFICIAL RESPONSE FORM
+</div>
+
+<div style="font-size:23px; line-height:29px; color:#ffffff; font-weight:900; margin-top:4px;">
+2026 REPUBLICAN MAJORITY SURVEY
+</div>
+
+</td>
+</tr>
+</table>
+
+</td>
+</tr>
+
+<!-- QUESTION 1 -->
+<tr>
+<td style="padding:24px 30px 0 30px;">
+
+<div style="font-size:12px; color:#b31f2b; font-weight:bold; margin-bottom:6px;">
+QUESTION 1 OF 4
+</div>
+
+<p style="font-size:18px; line-height:26px; font-weight:bold; margin:0 0 13px 0;">
+Should Republicans fight to EXPAND President Trump's House Majority?
+</p>
+
+<table role="presentation" width="100%" cellspacing="0" cellpadding="0" border="0">
+<tr>
+<td width="50%" style="padding-right:4px;">
+<a href="LINK"
+style="display:block; text-align:center; background-color:#b31f2b; color:#ffffff; text-decoration:none; font-weight:bold; padding:13px 5px;">
+YES
+</a>
+</td>
+
+<td width="50%" style="padding-left:4px;">
+<a href="LINK"
+style="display:block; text-align:center; background-color:#e9eaec; color:#111111; text-decoration:none; font-weight:bold; padding:13px 5px;">
+NO
+</a>
+</td>
+</tr>
+</table>
+
+</td>
+</tr>
+
+<tr>
+<td style="padding:23px 30px 0 30px;">
+<div style="border-top:1px solid #dddddd;"></div>
+</td>
+</tr>
+
+<!-- QUESTION 2 -->
+<tr>
+<td style="padding:21px 30px 0 30px;">
+
+<div style="font-size:12px; color:#b31f2b; font-weight:bold; margin-bottom:6px;">
+QUESTION 2 OF 4
+</div>
+
+<p style="font-size:18px; line-height:26px; font-weight:bold; margin:0 0 13px 0;">
+Should Republicans target Democrat-held seats where President Trump's movement has made major gains?
+</p>
+
+<table role="presentation" width="100%" cellspacing="0" cellpadding="0" border="0">
+<tr>
+<td width="50%" style="padding-right:4px;">
+<a href="LINK"
+style="display:block; text-align:center; background-color:#b31f2b; color:#ffffff; text-decoration:none; font-weight:bold; padding:13px 5px;">
+YES
+</a>
+</td>
+
+<td width="50%" style="padding-left:4px;">
+<a href="LINK"
+style="display:block; text-align:center; background-color:#e9eaec; color:#111111; text-decoration:none; font-weight:bold; padding:13px 5px;">
+NO
+</a>
+</td>
+</tr>
+</table>
+
+</td>
+</tr>
+
+<tr>
+<td style="padding:23px 30px 0 30px;">
+<div style="border-top:1px solid #dddddd;"></div>
+</td>
+</tr>
+
+<!-- QUESTION 3 -->
+<tr>
+<td style="padding:21px 30px 0 30px;">
+
+<div style="font-size:12px; color:#b31f2b; font-weight:bold; margin-bottom:6px;">
+QUESTION 3 OF 4
+</div>
+
+<p style="font-size:18px; line-height:26px; font-weight:bold; margin:0 0 13px 0;">
+Do you support helping Trump-endorsed Republicans like Tano Tijerina flip Democrat seats RED?
+</p>
+
+<table role="presentation" width="100%" cellspacing="0" cellpadding="0" border="0">
+<tr>
+<td width="50%" style="padding-right:4px;">
+<a href="LINK"
+style="display:block; text-align:center; background-color:#b31f2b; color:#ffffff; text-decoration:none; font-weight:bold; padding:13px 5px;">
+YES
+</a>
+</td>
+
+<td width="50%" style="padding-left:4px;">
+<a href="LINK"
+style="display:block; text-align:center; background-color:#e9eaec; color:#111111; text-decoration:none; font-weight:bold; padding:13px 5px;">
+NO
+</a>
+</td>
+</tr>
+</table>
+
+</td>
+</tr>
+
+<tr>
+<td style="padding:23px 30px 0 30px;">
+<div style="border-top:1px solid #dddddd;"></div>
+</td>
+</tr>
+
+<!-- QUESTION 4 -->
+<tr>
+<td style="padding:21px 30px 5px 30px;">
+
+<div style="font-size:12px; color:#b31f2b; font-weight:bold; margin-bottom:6px;">
+QUESTION 4 OF 4
+</div>
+
+<p style="font-size:18px; line-height:26px; font-weight:bold; margin:0 0 13px 0;">
+Which should be the GOP's TOP priority in 2026?
+</p>
+
+<a href="LINK"
+style="display:block; background-color:#f4f5f6; border:1px solid #d5d8dc; color:#111111; text-decoration:none; font-weight:bold; padding:13px 14px; margin-bottom:7px;">
+&#9675;&nbsp; Protect President Trump's House Majority
+</a>
+
+<a href="LINK"
+style="display:block; background-color:#f4f5f6; border:1px solid #d5d8dc; color:#111111; text-decoration:none; font-weight:bold; padding:13px 14px; margin-bottom:7px;">
+&#9675;&nbsp; Secure the Border
+</a>
+
+<a href="LINK"
+style="display:block; background-color:#f4f5f6; border:1px solid #d5d8dc; color:#111111; text-decoration:none; font-weight:bold; padding:13px 14px; margin-bottom:7px;">
+&#9675;&nbsp; Stop the Radical Left
+</a>
+
+<a href="LINK"
+style="display:block; background-color:#f4f5f6; border:1px solid #d5d8dc; color:#111111; text-decoration:none; font-weight:bold; padding:13px 14px; margin-bottom:7px;">
+&#9675;&nbsp; Grow the America First Movement
+</a>
+
+<a href="LINK"
+style="display:block; background-color:#0b2340; border:1px solid #0b2340; color:#ffffff; text-decoration:none; font-weight:bold; padding:13px 14px;">
+&#9675;&nbsp; ALL OF THE ABOVE
+</a>
+
+</td>
+</tr>
+
+<!-- SUBMIT -->
+<tr>
+<td align="center" style="padding:27px 30px 28px 30px;">
+
+<a href="LINK"
+style="display:block; background-color:#b31f2b; color:#ffffff; text-decoration:none; font-size:19px; line-height:25px; font-weight:900; padding:17px 15px;">
+SUBMIT MY RESPONSES &gt;&gt;
+</a>
+
+<div style="font-size:11px; line-height:16px; color:#777777; margin-top:9px;">
+2026 REPUBLICAN MAJORITY SURVEY
+</div>
+
+</td>
+</tr>
+
+<!-- CLOSING -->
+<tr>
+<td style="border-top:1px solid #e1e1e1; padding:25px 30px 30px 30px; font-size:18px; line-height:28px;">
+
+<p style="margin:0 0 18px 0;">
+${Recipient.FIRST_NAME}, this isn't an academic question.
+</p>
+
+<p style="margin:0 0 18px 0;">
+Democrats only need a small number of seats to take control of the House.
+</p>
+
+<p style="margin:0 0 18px 0;">
+And if all Republicans do is defend, we're giving them every opportunity to shrink our Majority.
+</p>
+
+<p style="margin:0 0 18px 0;">
+Candidates like Tano give us another option:
+</p>
+
+<p style="margin:0 0 20px 0; text-align:center; font-size:25px; line-height:31px; font-weight:900; color:#b31f2b;">
+EXPAND IT.
+</p>
+
+<p style="margin:0 0 18px 0;">
+That's why President Trump endorsed him.
+</p>
+
+<p style="margin:0 0 18px 0;">
+That's why I'm watching this race.
+</p>
+
+<p style="margin:0 0 22px 0;">
+And that's why I want to know where <strong>YOU</strong> stand.
+</p>
+
+<a href="LINK"
+style="display:block; background-color:#0b2340; color:#ffffff; text-decoration:none; text-align:center; font-size:18px; line-height:24px; font-weight:bold; padding:15px;">
+TAKE THE SURVEY &gt;&gt;
+</a>
+
+<p style="margin:27px 0 0 0;">
+God bless,
+</p>
+
+<p style="margin:4px 0 0 0; font-size:20px; font-weight:bold;">
+Ted Cruz
+</p>
+
+<p style="margin:1px 0 0 0; font-size:14px; color:#666666;">
+United States Senator
+</p>
+
+</td>
+</tr>
+
+<!-- FOOTER -->
+
+</tr>
+
+</table>
+
+</td>
+</tr>
+</table>
+
+</body>
+</html>
