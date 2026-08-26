@@ -1,0 +1,65 @@
+<table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="background:#0a0a0a;border:2px solid #2e2e2e;font-family:'Courier New',monospace;color:#00ff66;max-width:700px;margin:auto;">
+  <tr>
+    <td style="padding:28px;">
+
+      <div style="color:#ff2b2b;font-size:26px;font-weight:bold;text-align:center;letter-spacing:2px;">
+        ⚠ 2026 ELECTION ALERT ⚠
+      </div>
+
+      <hr style="border:1px solid #2a2a2a;margin:24px 0;">
+
+      <p><strong>REPUBLICAN LEADERSHIP COMMAND</strong></p>
+      <p>FOR: ${Recipient.FIRST_NAME} ONLY</p>
+      <p>STATUS: ENCRYPTED</p>
+      <p>CHANNEL: VERIFIED GOP NETWORK</p>
+
+      <hr style="border:1px solid #2a2a2a;margin:24px 0;">
+
+      <p style="font-size:20px;color:#ffffff;">
+        <strong>ATTENTION: ${Recipient.FIRST_NAME}</strong>
+      </p>
+
+      <p style="color:#ffffff;font-size:17px;line-height:1.7;">
+        Our latest 2026 battlefield projections have identified <strong>${Recipient.ZIP}</strong> as a rapidly shifting district.
+      </p>
+
+      <p style="color:#ffffff;font-size:17px;line-height:1.7;">
+        If Republican support continues to weaken here, Democrats will be one step closer to <strong>taking back the House Majority</strong> in 2026.
+      </p>
+
+      <p style="color:#ffffff;font-size:17px;line-height:1.7;">
+        <span style="color:#ff2b2b;"><strong>IF WE LOSE THE MAJORITY...</strong></span><br>
+        ► The Trump agenda stalls.<br>
+        ► Liberal committee chairs take control.<br>
+        ► Democrats regain the power to dictate Washington's agenda.
+      </p>
+
+      <table width="100%" cellpadding="12" cellspacing="0" style="background:#111;border:1px solid #3a3a3a;margin:25px 0;">
+        <tr>
+          <td style="color:#00ff66;">
+            ► GOP SUPPORT INDEX............... <strong>46%</strong><br>
+            ► 2026 HOUSE MAJORITY............. <span style="color:#ff2b2b;"><strong>AT RISK</strong></span><br>
+            ► ${Recipient.ZIP} ACTIVITY....... <strong>SHIFTING LEFT</strong><br>
+            ► ${Recipient.FIRST_NAME} STATUS.. <span style="color:#ff2b2b;"><strong>UNCONFIRMED</strong></span>
+          </td>
+        </tr>
+      </table>
+
+      <p style="color:#ffffff;font-size:17px;line-height:1.7;">
+        Every unconfirmed Republican record makes it harder to accurately identify conservative strength heading into the most important midterm election in years.
+      </p>
+
+      <p style="color:#ffffff;font-size:18px;line-height:1.7;">
+        <strong style="color:#ff2b2b;">Don't let Democrats gain another advantage.</strong><br>
+        Verify your Republican supporter record before <strong>11:59 PM TONIGHT.</strong>
+      </p>
+
+      <div style="margin:35px 0;text-align:center;">
+        <a href="{{link}}" style="background:#ff2b2b;color:#ffffff;text-decoration:none;padding:18px 34px;font-size:18px;font-weight:bold;border-radius:4px;display:inline-block;">
+          VERIFY MY GOP STATUS →
+        </a>
+      </div>
+
+    </td>
+  </tr>
+</table>
