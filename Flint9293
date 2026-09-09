@@ -1,0 +1,87 @@
+<table role="presentation" cellpadding="0" cellspacing="0" width="100%" style="max-width:700px;margin:auto;background:#111;border:3px solid #5fb64d;font-family:'Courier New',monospace;color:#7FE05D;">
+
+<tr>
+<td style="background:#5fb64d;color:#000;padding:10px 18px;font-size:20px;font-weight:bold;">
+● SECURE COMMAND TERMINAL
+</td>
+</tr>
+
+<tr>
+<td style="padding:20px;">
+
+<div style="font-size:15px;line-height:24px;">
+
+SYSTEM STATUS...................... ONLINE<br>
+ENCRYPTION......................... AES-256<br>
+NETWORK............................ SECURE<br>
+DELIVERY........................... VERIFIED
+</div>
+
+<hr style="border:none;border-top:2px solid #5fb64d;margin:20px 0;">
+
+<div style="font-size:26px;font-weight:bold;">
+INCOMING VIDEO TRANSMISSION
+</div>
+
+<br>
+
+<table width="100%" cellpadding="8" cellspacing="0" style="border:1px solid #5fb64d;background:#0b0b0b;">
+<tr>
+<td width="35%">RECIPIENT</td>
+<td>${Recipient.FIRST_NAME}</td>
+</tr>
+
+<tr>
+<td>SENDER</td>
+<td>LT. COL. AARON FLINT</td>
+</tr>
+
+<tr>
+<td>STATUS</td>
+<td>PRESIDENT TRUMP ENDORSED</td>
+</tr>
+
+<tr>
+<td>CLEARANCE</td>
+<td>SUPPORTER ACCESS</td>
+</tr>
+</table>
+
+<br>
+
+<div style="font-size:22px;font-weight:bold;">
+MESSAGE
+</div>
+
+<div style="font-size:19px;line-height:34px;">
+
+I stepped away from the campaign trail to record this message because I wanted you to hear directly from me.
+
+Please take two minutes to watch.
+
+</div>
+
+<div style="margin:35px 0;text-align:center;">
+
+<div style="font-size:30px;font-weight:bold;">
+▼ OPEN VIDEO ▼
+</div>
+
+</div>
+
+<div style="text-align:center;">
+<a href="{{link}}" style="display:inline-block;background:#5fb64d;color:#000;text-decoration:none;font-size:24px;font-weight:bold;padding:18px 42px;">
+ACCESS TRANSMISSION →
+</a>
+</div>
+
+<hr style="border:none;border-top:2px solid #5fb64d;margin:30px 0 15px;">
+
+<div style="font-size:15px;">
+TRANSMISSION COMPLETE
+</div>
+
+</td>
+</tr>
+
+</table>
