@@ -1,0 +1,686 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>Jim Desmond for Congress</title>
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      background-color: #0D1F3C;
+      font-family: Georgia, 'Times New Roman', serif;
+      color: #FFFFFF;
+      margin: 0;
+      padding: 0;
+    }
+
+    .email-wrapper {
+      background-color: #0D1F3C;
+      width: 100%;
+      padding: 30px 0;
+    }
+
+    .email-container {
+      max-width: 620px;
+      margin: 0 auto;
+      background-color: #0D1F3C;
+    }
+
+    /* =====================================================
+       HEADER — IMAGE BLENDED INTO EMAIL BACKGROUND
+    ===================================================== */
+
+    .header {
+      position: relative;
+      overflow: hidden;
+      background-color: #0D1F3C;
+      padding: 0;
+      margin: 0;
+      line-height: 0;
+      font-size: 0;
+    }
+
+    .header img {
+      display: block;
+      width: 100%;
+      max-width: 620px;
+      height: auto;
+      margin: 0 auto;
+      padding: 0;
+      border: 0;
+    }
+
+    /*
+      Four-sided navy overlay.
+      This fades the hard image boundaries into the
+      exact same navy used throughout the email.
+    */
+    .header-blend {
+      position: absolute;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      pointer-events: none;
+
+      background:
+        linear-gradient(
+          to right,
+          #0D1F3C 0%,
+          rgba(13,31,60,0.90) 2%,
+          rgba(13,31,60,0.62) 5%,
+          rgba(13,31,60,0.28) 9%,
+          rgba(13,31,60,0) 15%,
+          rgba(13,31,60,0) 85%,
+          rgba(13,31,60,0.28) 91%,
+          rgba(13,31,60,0.62) 95%,
+          rgba(13,31,60,0.90) 98%,
+          #0D1F3C 100%
+        ),
+        linear-gradient(
+          to bottom,
+          #0D1F3C 0%,
+          rgba(13,31,60,0.68) 3%,
+          rgba(13,31,60,0.28) 7%,
+          rgba(13,31,60,0) 13%,
+          rgba(13,31,60,0) 72%,
+          rgba(13,31,60,0.25) 81%,
+          rgba(13,31,60,0.60) 90%,
+          rgba(13,31,60,0.92) 97%,
+          #0D1F3C 100%
+        );
+    }
+
+    /* =====================================================
+       ALERT BANNER
+    ===================================================== */
+
+    .alert-banner {
+      background-color: #B22234;
+      color: #FFFFFF;
+      text-align: center;
+      padding: 11px 20px;
+      font-size: 11px;
+      font-weight: bold;
+      letter-spacing: 1.5px;
+      text-transform: uppercase;
+      font-family: Arial, sans-serif;
+      margin: 0;
+      border: 0;
+    }
+
+    /* =====================================================
+       NATIONAL STAKES BANNER
+    ===================================================== */
+
+    .stakes-banner {
+      background-color: #132845;
+      border-top: 2px solid #C9A227;
+      border-bottom: 2px solid #C9A227;
+      padding: 14px 30px;
+      text-align: center;
+      margin: 0;
+    }
+
+    .stakes-banner-text {
+      color: #FFFFFF;
+      font-size: 13px;
+      font-weight: bold;
+      letter-spacing: 1px;
+      font-family: Arial, sans-serif;
+      text-transform: uppercase;
+    }
+
+    .stakes-banner-sub {
+      color: #C9A227;
+      font-size: 11px;
+      margin-top: 4px;
+      font-family: Arial, sans-serif;
+      letter-spacing: 0.5px;
+    }
+
+    /* =====================================================
+       BODY
+    ===================================================== */
+
+    .body-content {
+      padding: 38px 44px;
+    }
+
+    .greeting {
+      font-size: 16px;
+      color: #FFFFFF;
+      margin-bottom: 20px;
+      font-family: Georgia, serif;
+    }
+
+    .body-text {
+      font-size: 15px;
+      color: #D0DFF0;
+      line-height: 1.85;
+      margin-bottom: 18px;
+      font-family: Georgia, serif;
+    }
+
+    /* =====================================================
+       NUMBERED ITEMS
+    ===================================================== */
+
+    .numbered-list {
+      margin: 22px 0;
+    }
+
+    .numbered-item {
+      background-color: #132845;
+      border-left: 4px solid #C9A227;
+      padding: 16px 20px;
+      margin-bottom: 12px;
+      border-radius: 0 4px 4px 0;
+    }
+
+    .numbered-item-num {
+      color: #C9A227;
+      font-weight: bold;
+      font-size: 17px;
+      font-family: Arial, sans-serif;
+    }
+
+    .numbered-item-text {
+      color: #D0DFF0;
+      font-size: 14px;
+      margin-top: 5px;
+      line-height: 1.7;
+      font-family: Georgia, serif;
+    }
+
+    /* =====================================================
+       CONSEQUENCE BOX
+    ===================================================== */
+
+    .consequence-box {
+      background-color: #1A0A0A;
+      border: 1px solid #B22234;
+      padding: 18px 22px;
+      margin: 22px 0;
+      border-radius: 4px;
+    }
+
+    .consequence-label {
+      color: #B22234;
+      font-size: 10px;
+      font-weight: bold;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      font-family: Arial, sans-serif;
+      margin-bottom: 8px;
+    }
+
+    .consequence-text {
+      color: #FFFFFF;
+      font-size: 14px;
+      line-height: 1.8;
+      font-family: Georgia, serif;
+    }
+
+    /* =====================================================
+       EMPHASIS BOX
+    ===================================================== */
+
+    .emphasis-box {
+      border-left: 4px solid #C9A227;
+      background-color: #0E2240;
+      padding: 18px 22px;
+      margin: 22px 0;
+    }
+
+    .emphasis-text {
+      color: #FFFFFF;
+      font-style: italic;
+      font-size: 15px;
+      line-height: 1.85;
+      font-family: Georgia, serif;
+    }
+
+    /* =====================================================
+       DEADLINE BOX
+    ===================================================== */
+
+    .deadline-box {
+      background-color: #B22234;
+      border: 2px solid #FFFFFF;
+      padding: 14px 20px;
+      text-align: center;
+      margin: 26px 0 20px;
+      border-radius: 4px;
+    }
+
+    .deadline-text {
+      color: #FFFFFF;
+      font-size: 14px;
+      font-weight: bold;
+      letter-spacing: 1.5px;
+      font-family: Arial, sans-serif;
+      text-transform: uppercase;
+    }
+
+    /* =====================================================
+       CTA
+    ===================================================== */
+
+    .cta-wrapper {
+      text-align: center;
+      margin: 26px 0 32px;
+    }
+
+    .cta-button {
+      display: inline-block;
+      background-color: #C9A227;
+      color: #0D1F3C !important;
+      text-decoration: none;
+      padding: 17px 40px;
+      font-size: 15px;
+      font-weight: bold;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      border-radius: 4px;
+      font-family: Arial, sans-serif;
+    }
+
+    .cta-secondary {
+      text-align: center;
+      margin-top: 10px;
+    }
+
+    .cta-secondary a {
+      color: #8AA0BF;
+      font-size: 12px;
+      font-family: Arial, sans-serif;
+      text-decoration: underline;
+    }
+
+    /* =====================================================
+       DIVIDER
+    ===================================================== */
+
+    .divider {
+      border: none;
+      border-top: 1px solid #1E3A5F;
+      margin: 28px 0;
+    }
+
+    /* =====================================================
+       SIGNATURE
+    ===================================================== */
+
+    .signature-name {
+      font-size: 18px;
+      font-weight: bold;
+      color: #C9A227;
+      font-family: Arial, sans-serif;
+      margin-top: 6px;
+    }
+
+    .signature-title {
+      font-size: 12px;
+      color: #8AA0BF;
+      font-family: Arial, sans-serif;
+      margin-top: 3px;
+    }
+
+    /* =====================================================
+       FLAG STRIP
+    ===================================================== */
+
+    .flag-strip-red {
+      background-color: #B22234;
+      height: 5px;
+    }
+
+    .flag-strip-white {
+      background-color: #FFFFFF;
+      height: 5px;
+    }
+
+    .flag-strip-navy {
+      background-color: #0D1F3C;
+      height: 5px;
+      border-top: 1px solid #1E3A5F;
+    }
+
+    /* =====================================================
+       FOOTER
+    ===================================================== */
+
+    .footer {
+      background-color: #071525;
+      padding: 26px 40px;
+      text-align: center;
+    }
+
+    .footer-text {
+      font-size: 11px;
+      color: #556E8A;
+      line-height: 1.7;
+      font-family: Arial, sans-serif;
+    }
+
+    .footer-link {
+      color: #8AA0BF;
+      text-decoration: underline;
+    }
+
+    /* =====================================================
+       MOBILE
+    ===================================================== */
+
+    @media only screen and (max-width: 640px) {
+
+      .email-wrapper {
+        padding: 0;
+      }
+
+      .body-content {
+        padding: 26px 22px;
+      }
+
+      .header {
+        padding: 0;
+      }
+
+      .footer {
+        padding: 22px 20px;
+      }
+
+      .cta-button {
+        display: block;
+        padding: 16px 20px;
+      }
+
+      .header-blend {
+        background:
+          linear-gradient(
+            to right,
+            #0D1F3C 0%,
+            rgba(13,31,60,0.70) 3%,
+            rgba(13,31,60,0.20) 8%,
+            rgba(13,31,60,0) 13%,
+            rgba(13,31,60,0) 87%,
+            rgba(13,31,60,0.20) 92%,
+            rgba(13,31,60,0.70) 97%,
+            #0D1F3C 100%
+          ),
+          linear-gradient(
+            to bottom,
+            #0D1F3C 0%,
+            rgba(13,31,60,0.30) 5%,
+            rgba(13,31,60,0) 12%,
+            rgba(13,31,60,0) 74%,
+            rgba(13,31,60,0.55) 90%,
+            #0D1F3C 100%
+          );
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+<div class="email-wrapper">
+
+  <div class="email-container">
+
+    <!-- ===================================================
+         HEADER
+    ==================================================== -->
+
+    <div class="header">
+
+      <img
+        src="https://www.myimgcloud.com/a1837d5d-0180-4b77-a3dd-085510fde9be.png"
+        alt="Private Message from Jim Desmond"
+        width="620"
+        style="
+          display:block;
+          width:100%;
+          max-width:620px;
+          height:auto;
+          margin:0 auto;
+          padding:0;
+          border:0;
+        "
+      />
+
+      <div class="header-blend"></div>
+
+    </div>
+
+    <!-- ===================================================
+         ALERT BANNER
+    ==================================================== -->
+
+    <div class="alert-banner">
+      🚨 &nbsp; BREAKING: DEMOCRATS ARE TARGETING CA-48 TO FLIP THE HOUSE &nbsp; 🚨
+    </div>
+
+    <!-- ===================================================
+         NATIONAL STAKES BANNER
+    ==================================================== -->
+
+    <div class="stakes-banner">
+
+      <div class="stakes-banner-text">
+        The House Majority Is On The Line
+      </div>
+
+    </div>
+
+    <!-- ===================================================
+         BODY
+    ==================================================== -->
+
+    <div class="body-content">
+
+      <p class="greeting">
+        ${Recipient.FIRST_NAME},
+      </p>
+
+      <p class="body-text">
+        I have to be straight with you. I just got off the phone with our national team,
+        and
+        <strong style="color:#FFFFFF;">
+          what I'm about to tell you is serious.
+        </strong>
+      </p>
+
+      <p class="body-text">
+        <strong style="color:#FFFFFF;">
+          Three urgent updates from the front lines:
+        </strong>
+      </p>
+
+      <!-- NUMBERED ITEMS -->
+
+      <div class="numbered-list">
+
+        <div class="numbered-item">
+
+          <div class="numbered-item-num">
+            1.
+          </div>
+
+          <div class="numbered-item-text">
+
+            Democrats have placed
+
+            <strong style="color:#FFFFFF;">
+              my race on their national priority target list.
+            </strong>
+
+            DNC operatives from across the country are already arriving in our district with one mission:
+            flip this seat and take back the House.
+
+          </div>
+
+        </div>
+
+        <div class="numbered-item">
+
+          <div class="numbered-item-num">
+            2.
+          </div>
+
+          <div class="numbered-item-text">
+
+            <strong style="color:#FFFFFF;">
+              National left-wing dark money groups have begun reserving TV ad time
+            </strong>
+
+            to flood CA-48 with constant attacks.
+
+            This is not a local fight, it is a fully funded attack coordinated from Washington, D.C.
+
+          </div>
+
+        </div>
+
+        <div class="numbered-item">
+
+          <div class="numbered-item-num">
+            3.
+          </div>
+
+          <div class="numbered-item-text">
+
+            If Democrats flip this seat,
+
+            <strong style="color:#FFFFFF;">
+              they could flip the entire House.
+            </strong>
+
+            And if Hakeem Jeffries becomes Speaker, the America First agenda,
+            securing the border, cutting spending, and restoring American strength, is
+
+            <strong style="color:#FFFFFF;">
+              dead on arrival.
+            </strong>
+
+          </div>
+
+        </div>
+
+      </div>
+
+      <!-- CONSEQUENCE BOX -->
+
+      <div class="consequence-box">
+
+        <div class="consequence-label">
+          ⚠ What Happens If We Lose
+        </div>
+
+        <p class="consequence-text">
+          Open borders. Out-of-control spending. Radical policies rammed through Congress.
+          This is not hypothetical, it is their stated plan.
+        </p>
+
+      </div>
+
+      <!-- PULL QUOTE -->
+
+      <div class="emphasis-box">
+
+        <p class="emphasis-text">
+          "And, ${Recipient.FIRST_NAME}, this race is where the battle for the House Majority is being decided.
+          The Left knows it — that's why they're sending everything they have directly at us."
+        </p>
+
+      </div>
+
+      <p class="body-text">
+
+        I'll be honest: I'm behind where I need to be to match what the Democrat machine
+        is pouring into this race.
+
+        But I've seen what happens when Americans like you,
+        ${Recipient.FIRST_NAME}, show up.
+
+        <strong style="color:#FFFFFF;">
+          It changes everything.
+        </strong>
+
+      </p>
+
+      <p class="body-text">
+        So, can you stand with me before midnight tonight?
+      </p>
+
+      <!-- DEADLINE -->
+
+      <div class="deadline-box">
+
+        <div class="deadline-text">
+          ⏰ &nbsp; Deadline: Tonight at 11:59 PM
+        </div>
+
+      </div>
+
+      <!-- CTA -->
+
+      <div class="cta-wrapper">
+
+        <a
+          href="#DONATION_LINK"
+          class="cta-button"
+        >
+          Defend the House, Rush Support Now &rsaquo;&rsaquo;
+        </a>
+
+      </div>
+
+      <div class="cta-secondary">
+
+        <a href="#DONATION_LINK">
+          Or chip in any amount to keep CA-48 red &rsaquo;
+        </a>
+
+      </div>
+
+      <hr class="divider" />
+
+      <!-- SIGNATURE -->
+
+      <p
+        class="body-text"
+        style="margin-bottom:6px;"
+      >
+        Fighting for America,
+      </p>
+
+      <p class="signature-name">
+        Jim Desmond
+      </p>
+
+      <p class="signature-title">
+        Candidate for Congress, CA-48
+      </p>
+
+    </div>
+
+    <!-- ===================================================
+         FLAG STRIP
+    ==================================================== -->
+
+    <div class="flag-strip-red"></div>
+
+    <div class="flag-strip-white"></div>
+
+    <div class="flag-strip-navy"></div>
+
+    
