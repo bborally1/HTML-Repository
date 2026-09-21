@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="color-scheme" content="light">
+<meta name="supported-color-schemes" content="light">
+<title>Diamond Status</title>
+<!--[if mso]>
+<noscript><xml><o:OfficeDocumentSettings><o:PixelsPerInch>96</o:PixelsPerInch></o:OfficeDocumentSettings></xml></noscript>
+<![endif]-->
+<style>
+  body, table, td, a { -webkit-text-size-adjust:100%; -ms-text-size-adjust:100%; }
+  table, td { mso-table-lspace:0pt; mso-table-rspace:0pt; }
+  body { margin:0 !important; padding:0 !important; width:100% !important; background:#ffffff; }
+  a { text-decoration:none; }
+  @media only screen and (max-width:620px) {
+    .wrap   { width:100% !important; }
+    .cell   { padding-left:16px !important; padding-right:16px !important; }
+    .label  { width:38% !important; font-size:11px !important; letter-spacing:1.5px !important; }
+    .value  { font-size:16px !important; }
+    .title  { font-size:21px !important; letter-spacing:2px !important; }
+    .btn-tbl { width:100% !important; }
+    .btn-a  { padding-left:10px !important; padding-right:10px !important; }
+  }
+</style>
+</head>
+<body style="margin:0;padding:0;background-color:#ffffff;">
+
+<!-- Hidden preheader (inbox preview text) -->
+<div style="display:none;font-size:1px;line-height:1px;max-height:0;max-width:0;opacity:0;overflow:hidden;mso-hide:all;">
+  Your Diamond status is waiting to be unlocked. &#8199;&#847; &#8199;&#847; &#8199;&#847; &#8199;&#847;
+</div>
+
+<table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" bgcolor="#ffffff" style="background-color:#ffffff;">
+  <tr>
+    <td align="center" style="padding:36px 12px;">
+
+      <!-- GRADIENT BORDER (ice > white > gold) -->
+      <table role="presentation" class="wrap" width="600" cellpadding="0" cellspacing="0" border="0" style="width:600px;max-width:600px;">
+        <tr>
+          <td bgcolor="#f5c451" style="padding:2px;border-radius:18px;background-color:#f5c451;background-image:linear-gradient(135deg,#7fe3ff 0%,#ffffff 30%,#f5c451 70%,#7fe3ff 100%);">
+
+            <!-- CARD -->
+            <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" bgcolor="#0a0f1d" style="background-color:#0a0f1d;border-radius:16px;">
+
+              <!-- Header -->
+              <tr>
+                <td class="cell" align="center" bgcolor="#0a0f1d" style="padding:40px 32px 30px 32px;background-color:#0a0f1d;background-image:radial-gradient(ellipse at top,#1a2f57 0%,#0a0f1d 70%);border-radius:16px 16px 0 0;">
+                  <div style="font-family:Arial,Helvetica,sans-serif;font-size:14px;line-height:20px;letter-spacing:10px;color:#f5c451;">&#9670;&nbsp;&#10022;&nbsp;&#9670;</div>
+                  <div style="font-size:58px;line-height:66px;padding-top:8px;">&#128142;</div>
+                  <div class="title" style="font-family:Georgia,'Times New Roman',serif;font-size:28px;line-height:34px;font-weight:bold;letter-spacing:5px;color:#ffffff;padding-top:12px;text-transform:uppercase;">
+                    Trump Diamond Status
+                  </div>
+                  <table role="presentation" cellpadding="0" cellspacing="0" border="0" align="center" style="margin-top:18px;">
+                    <tr>
+                      <td width="50" height="2" style="width:50px;height:2px;line-height:2px;font-size:0;background-color:#7fe3ff;">&nbsp;</td>
+                      <td width="14" style="width:14px;font-family:Arial,sans-serif;font-size:10px;line-height:2px;color:#f5c451;text-align:center;">&#9670;</td>
+                      <td width="50" height="2" style="width:50px;height:2px;line-height:2px;font-size:0;background-color:#f5c451;">&nbsp;</td>
+                    </tr>
+                  </table>
+                </td>
+              </tr>
+
+              <!-- Rows -->
+              <tr>
+                <td style="padding:0;">
+                  <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0">
+
+                    <!-- NAME -->
+                    <tr>
+                      <td class="cell label" width="34%" valign="middle" bgcolor="#0e1628" style="width:34%;padding:22px 16px 22px 32px;background-color:#0e1628;border-top:1px solid #1e2d47;font-family:Arial,Helvetica,sans-serif;font-size:12px;font-weight:bold;letter-spacing:2.5px;color:#7f93b5;">
+                        NAME:
+                      </td>
+                      <td class="cell value" valign="middle" bgcolor="#0e1628" style="padding:22px 32px 22px 0;background-color:#0e1628;border-top:1px solid #1e2d47;font-family:Georgia,'Times New Roman',serif;font-size:20px;font-weight:bold;color:#ffffff;">
+                        ${Recipient.FIRST_NAME}
+                      </td>
+                    </tr>
+
+                    <!-- STATE -->
+                    <tr>
+                      <td class="cell label" width="34%" valign="middle" bgcolor="#0a0f1d" style="width:34%;padding:22px 16px 22px 32px;background-color:#0a0f1d;border-top:1px solid #1e2d47;font-family:Arial,Helvetica,sans-serif;font-size:12px;font-weight:bold;letter-spacing:2.5px;color:#7f93b5;">
+                        STATE:
+                      </td>
+                      <td class="cell value" valign="middle" bgcolor="#0a0f1d" style="padding:22px 32px 22px 0;background-color:#0a0f1d;border-top:1px solid #1e2d47;font-family:Georgia,'Times New Roman',serif;font-size:20px;font-weight:bold;color:#ffffff;">
+                        ${Recipient.STATE}
+                      </td>
+                    </tr>
+
+                    <!-- STATUS -->
+                    <tr>
+                      <td class="cell label" width="34%" valign="middle" bgcolor="#0e1628" style="width:34%;padding:20px 16px 20px 32px;background-color:#0e1628;border-top:1px solid #1e2d47;font-family:Arial,Helvetica,sans-serif;font-size:12px;font-weight:bold;letter-spacing:2.5px;color:#7f93b5;">
+                        STATUS:
+                      </td>
+                      <td class="cell" valign="middle" bgcolor="#0e1628" style="padding:16px 32px 16px 0;background-color:#0e1628;border-top:1px solid #1e2d47;">
+                        <table role="presentation" cellpadding="0" cellspacing="0" border="0">
+                          <tr>
+                            <td bgcolor="#2b2208" style="background-color:#2b2208;border:1px solid #f5c451;border-radius:999px;padding:8px 16px;font-family:Arial,Helvetica,sans-serif;font-size:13px;font-weight:bold;letter-spacing:1px;color:#f5c451;">
+                              &#128274;&nbsp; WAITING TO BE UNLOCKED
+                            </td>
+                          </tr>
+                        </table>
+                      </td>
+                    </tr>
+
+                    <!-- GIFT -->
+                    <tr>
+                      <td class="cell label" width="34%" valign="middle" bgcolor="#0a0f1d" style="width:34%;padding:22px 16px 22px 32px;background-color:#0a0f1d;border-top:1px solid #1e2d47;font-family:Arial,Helvetica,sans-serif;font-size:12px;font-weight:bold;letter-spacing:2.5px;color:#7f93b5;">
+                        GIFT:
+                      </td>
+                      <td class="cell value" valign="middle" bgcolor="#0a0f1d" style="padding:22px 32px 22px 0;background-color:#0a0f1d;border-top:1px solid #1e2d47;font-family:Arial,Helvetica,sans-serif;font-size:16px;font-weight:bold;letter-spacing:2px;color:#ffffff;">
+                        &#127873;&nbsp; UNOPENED
+                      </td>
+                    </tr>
+
+                    <!-- NEXT STEP -->
+                    <tr>
+                      <td class="cell label" width="34%" valign="middle" bgcolor="#0e1628" style="width:34%;padding:20px 16px 20px 32px;background-color:#0e1628;border-top:1px solid #1e2d47;font-family:Arial,Helvetica,sans-serif;font-size:12px;font-weight:bold;letter-spacing:2.5px;color:#7f93b5;">
+                        NEXT STEP:
+                      </td>
+                      <td class="cell" valign="middle" bgcolor="#0e1628" style="padding:16px 32px 16px 0;background-color:#0e1628;border-top:1px solid #1e2d47;">
+                        <table role="presentation" cellpadding="0" cellspacing="0" border="0">
+                          <tr>
+                            <td bgcolor="#7fe3ff" style="background-color:#7fe3ff;border-radius:999px;padding:9px 18px;font-family:Arial,Helvetica,sans-serif;font-size:13px;font-weight:bold;letter-spacing:1.5px;color:#04060c;">
+                              VIEW BELOW &#8595;
+                            </td>
+                          </tr>
+                        </table>
+                      </td>
+                    </tr>
+
+                  </table>
+                </td>
+              </tr>
+
+              <!-- CLAIM HERE BUTTON -->
+              <tr>
+                <td class="cell" align="center" bgcolor="#0a0f1d" style="padding:34px 32px 42px 32px;background-color:#0a0f1d;border-top:1px solid #1e2d47;border-radius:0 0 16px 16px;">
+
+                  <!-- >>> REPLACE https://YOUR-CLAIM-LINK.com in BOTH places below <<< -->
+
+                  <!--[if mso]>
+                  <v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="https://YOUR-CLAIM-LINK.com" style="height:60px;v-text-anchor:middle;width:340px;" arcsize="50%" stroke="f" fillcolor="#f5c451">
+                    <w:anchorlock/>
+                    <center style="color:#04060c;font-family:Arial,Helvetica,sans-serif;font-size:18px;font-weight:bold;letter-spacing:3px;">CLAIM HERE</center>
+                  </v:roundrect>
+                  <![endif]-->
+                  <!--[if !mso]><!-- -->
+                  <table role="presentation" class="btn-tbl" cellpadding="0" cellspacing="0" border="0" align="center" style="width:340px;max-width:100%;">
+                    <tr>
+                      <td align="center" bgcolor="#f5c451" style="border-radius:999px;background-color:#f5c451;background-image:linear-gradient(180deg,#ffe58f 0%,#f5c451 50%,#dca42a 100%);box-shadow:0 0 28px rgba(245,196,81,0.5);">
+                        <a class="btn-a" href="https://YOUR-CLAIM-LINK.com" target="_blank" style="display:block;padding:19px 40px;font-family:Arial,Helvetica,sans-serif;font-size:18px;line-height:22px;font-weight:bold;letter-spacing:3px;color:#04060c;text-decoration:none;border-radius:999px;">
+                          &#128142;&nbsp; CLAIM HERE
+                        </a>
+                      </td>
+                    </tr>
+                  </table>
+                  <!--<![endif]-->
+
+                </td>
+              </tr>
+
+            </table>
+            <!-- /CARD -->
+
+          </td>
+        </tr>
+      </table>
+
+    </td>
+  </tr>
+</table>
+
+</body>
+</html>
