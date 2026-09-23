@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Email</title>
+</head>
+
+<body style="margin:0; padding:0; background-color:#e8e8e2;">
+
+<table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0"
+       style="width:100%; background-color:#fffff;">
+<tr>
+<td align="center" style="padding:24px 10px;">
+
+<!-- MAIN EMAIL -->
+<table role="presentation" width="600" cellpadding="0" cellspacing="0" border="0"
+       style="width:100%; max-width:600px; background-color:#ffffff;
+              font-family:Arial, Helvetica, sans-serif;">
+
+<!-- TOP STRIPE -->
+<tr>
+<td style="height:8px; background-color:#30372b; font-size:1px; line-height:1px;">
+&nbsp;
+</td>
+</tr>
+
+<!-- IMAGE HEADER -->
+<tr>
+<td align="center" style="padding:0; background-color:#3f4937;">
+<img src="https://www.myimgcloud.com/4c765f79-8429-44e0-b8ba-c85f08c49b00.png" alt="Commander Zinke" width="600" style="display:block; width:100%; max-width:600px; height:auto; border:0;">
+</td>
+</tr>
+
+<!-- INFO BAR -->
+<tr>
+<td style="
+    padding:10px 18px;
+    background-color:#242220;
+    color:#e4e6de;
+    font-size:11px;
+    line-height:16px;
+    text-align:center;
+    letter-spacing:1.2px;
+    text-transform:uppercase;
+    font-weight:bold;">
+MISSION BRIEFING &nbsp; • &nbsp; 2026
+</td>
+</tr>
+
+<!-- BODY -->
+<tr>
+<td style="
+    padding:30px 34px 14px;
+    color:#20231e;
+    font-size:17px;
+    line-height:27px;">
+
+<p style="margin:0 0 20px;">
+<strong>${Recipient.FIRST_NAME},</strong>
+</p>
+
+<!-- OPENING COPY -->
+<p style="margin:0 0 20px;">
+${Recipient.FIRST_NAME}, Commander Zinke here. I'm going to be blunt, the kind of blunt I'd be with one of my SEALs before a mission.
+</p>
+
+<p style="margin:0 0 20px;">
+I just got a briefing that stopped me cold.
+</p>
+
+<!-- BRIEFING BOX -->
+<table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0"
+       style="margin:25px 0;">
+<tr>
+<td style="
+    border-left:5px solid #4d5942;
+    background-color:#f1f2ed;
+    padding:18px 20px;">
+
+<div style="
+    font-size:11px;
+    line-height:16px;
+    font-weight:bold;
+    letter-spacing:1.5px;
+    color:#616858;
+    text-transform:uppercase;
+    margin-bottom:6px;">
+BRIEFING
+</div>
+
+<div style="
+    font-size:18px;
+    line-height:27px;
+    font-weight:bold;
+    color:#242820;">
+National Democrats have already raised a cumulative $577 million and spent $499 million. Right now, at this very moment, they are using every last dollar of it to drown out every America First patriot voice.
+</div>
+
+</td>
+</tr>
+</table>
+
+<!-- BODY COPY -->
+<p style="margin:0 0 20px;">
+${Recipient.FIRST_NAME}, that's not spin. That's these radical socialists' actual war chest, and it's <a href="YOUR-LINK-HERE" style="color:#0000ff; font-weight:bold; text-decoration:underline;">aimed directly at MAGA.</a>
+</p>
+
+<!-- MID-BODY BUTTON 1 -->
+<table role="presentation" cellpadding="0" cellspacing="0" border="0" align="center" style="margin:20px auto;">
+<tr>
+<td align="center" bgcolor="#b59b63" style="border-radius:3px;">
+<a href="YOUR-LINK-HERE" style="display:inline-block; padding:12px 24px; font-family:Arial, Helvetica, sans-serif; font-size:15px; font-weight:bold; color:#10130e; text-decoration:none;">DEFEND OUR MAJORITY &gt;&gt;</a>
+</td>
+</tr>
+</table>
+
+<p style="margin:0 0 20px;">
+Here's what happens if we let them win in ‘26: For the next two years, <a href="YOUR-LINK-HERE" style="color:#0000ff; font-weight:bold; text-decoration:underline;">President Trump will be buried under nonstop impeachment threats.</a>
+</p>
+
+<p style="margin:0 0 20px;">
+A House that does nothing but investigate him and <a href="YOUR-LINK-HERE" style="color:#0000ff; font-weight:bold; text-decoration:underline;">BLOCK the America First agenda</a> at every single turn.
+</p>
+
+<p style="margin:0 0 20px;">
+YOU were the reason we won in 2024. YOU gave us this House majority in the first place. I've seen this country fight back when it mattered most, and <a href="YOUR-LINK-HERE" style="color:#0000ff; font-weight:bold; text-decoration:underline;">I need you to fight back right now.</a>
+</p>
+
+<p style="margin:0 0 20px;">
+Because I'm telling you from the front lines: we cannot get complacent. Not with socialism at our doorstep. Not with the radical Left spending half a billion dollars to silence us.
+</p>
+
+<!-- MID-BODY BUTTON 2 -->
+<table role="presentation" cellpadding="0" cellspacing="0" border="0" align="center" style="margin:20px auto;">
+<tr>
+<td align="center" bgcolor="#3f4937" style="border-radius:3px;">
+<a href="YOUR-LINK-HERE" style="display:inline-block; padding:12px 24px; font-family:Arial, Helvetica, sans-serif; font-size:15px; font-weight:bold; color:#ffffff; text-decoration:none;">RUSH $10 TO FIGHT BACK NOW &gt;&gt;</a>
+</td>
+</tr>
+</table>
+
+<p style="margin:0 0 20px;">
+As a Navy SEAL, I never retreated. But I also know that without reinforcements, <a href="YOUR-LINK-HERE" style="color:#0000ff; font-weight:bold; text-decoration:underline;">even the toughest warrior gets overwhelmed.</a>
+</p>
+
+<!-- CLICKABLE BOLD BLUE UNDERLINED TEXT -->
+<p style="margin:0 0 24px;">
+<a href="YOUR-LINK-HERE" style="color:#0000ff; font-weight:bold; text-decoration:underline;">
+${Recipient.FIRST_NAME}, I'm humbly asking, will you stand with me and make sure we DEFEAT THESE RADICALS and put SOCIALISM TO REST FOREVER IN AMERICA?
+</a>
+</p>
+
+<!-- CLOSING COPY -->
+<p style="margin:0 0 20px;">
+The math is simple: if we don't start building more resources RIGHT NOW, we will be drowned out come November. We have too much to lose, <a href="YOUR-LINK-HERE" style="color:#0000ff; font-weight:bold; text-decoration:underline;">${Recipient.FIRST_NAME}.</a>
+</p>
+
+<p style="margin:0 0 24px;">
+<a href="YOUR-LINK-HERE" style="color:#0000ff; font-weight:bold; text-decoration:underline;">Don't let that happen.</a>
+</p>
+
+</td>
+</tr>
+
+<!-- ACTION PANEL -->
+<tr>
+<td style="padding:0 34px 30px;">
+
+<table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0"
+       style="
+        background-color:#394233;
+        border:1px solid #293026;">
+<tr>
+<td align="center" style="padding:24px 18px;">
+
+<div style="
+    color:#ffffff;
+    font-size:13px;
+    line-height:18px;
+    letter-spacing:1.3px;
+    font-weight:bold;
+    text-transform:uppercase;
+    margin-bottom:15px;">
+TAKE THE NEXT STEP
+</div>
+
+<!-- BUTTONS -->
+<table role="presentation" cellpadding="0" cellspacing="0" border="0" width="100%">
+<tr>
+<td align="center" style="padding-bottom:10px;">
+<table role="presentation" cellpadding="0" cellspacing="0" border="0" width="100%">
+<tr>
+<td align="center" bgcolor="#b59b63" style="border-radius:3px;">
+<a href="YOUR-LINK-HERE" style="display:block; padding:12px 20px; font-family:Arial, Helvetica, sans-serif; font-size:14px; font-weight:bold; color:#10130e; text-decoration:none;">STAND WITH ZINKE - CHIP IN $10 &gt;&gt;</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td align="center" style="padding-bottom:10px;">
+<table role="presentation" cellpadding="0" cellspacing="0" border="0" width="100%">
+<tr>
+<td align="center" bgcolor="#b59b63" style="border-radius:3px;">
+<a href="YOUR-LINK-HERE" style="display:block; padding:12px 20px; font-family:Arial, Helvetica, sans-serif; font-size:14px; font-weight:bold; color:#10130e; text-decoration:none;">STAND WITH ZINKE - CHIP IN $25 &gt;&gt;</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td align="center" style="padding-bottom:10px;">
+<table role="presentation" cellpadding="0" cellspacing="0" border="0" width="100%">
+<tr>
+<td align="center" bgcolor="#b59b63" style="border-radius:3px;">
+<a href="YOUR-LINK-HERE" style="display:block; padding:12px 20px; font-family:Arial, Helvetica, sans-serif; font-size:14px; font-weight:bold; color:#10130e; text-decoration:none;">STAND WITH ZINKE - CHIP IN $50 &gt;&gt;</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td align="center">
+<table role="presentation" cellpadding="0" cellspacing="0" border="0" width="100%">
+<tr>
+<td align="center" bgcolor="#b59b63" style="border-radius:3px;">
+<a href="YOUR-LINK-HERE" style="display:block; padding:12px 20px; font-family:Arial, Helvetica, sans-serif; font-size:14px; font-weight:bold; color:#10130e; text-decoration:none;">STAND WITH ZINKE - CHIP IN ANY AMOUNT &gt;&gt;</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+
+</td>
+</tr>
+</table>
+
+</td>
+</tr>
+
+<!-- SIGNATURE -->
+<tr>
+<td style="
+    padding:4px 34px 34px;
+    font-family:Arial, Helvetica, sans-serif;
+    color:#242820;
+    font-size:16px;
+    line-height:25px;">
+
+Thank you and God Bless America,<br><br>
+
+<strong>Ryan Zinke</strong><br>
+
+<span style="
+    color:#666c60;
+    font-size:13px;
+    line-height:20px;">
+Commander, SEAL Team 6 (Ret.)<br>
+Former U.S. Secretary of the Interior
+</span>
+
+</td>
+</tr>
+
+</table>
+
+</td>
+</tr>
+</table>
+
+</body>
+</html>
