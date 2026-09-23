@@ -57,12 +57,12 @@ MISSION BRIEFING &nbsp; • &nbsp; 2026
     line-height:27px;">
 
 <p style="margin:0 0 20px;">
-<strong>${Recipient.FIRST_NAME},</strong>
+<strong>${Recipient.FIRST_NAME},  Commander Zinke here.</strong>
 </p>
 
 <!-- OPENING COPY -->
 <p style="margin:0 0 20px;">
-${Recipient.FIRST_NAME}, Commander Zinke here. I'm going to be blunt, the kind of blunt I'd be with one of my SEALs before a mission.
+ I'm going to be blunt, the kind of blunt I'd be with one of my SEALs before a mission.
 </p>
 
 <p style="margin:0 0 20px;">
