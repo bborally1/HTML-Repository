@@ -9,7 +9,7 @@
 <body style="margin:0; padding:0; background-color:#e8e8e2;">
 
 <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0"
-       style="width:100%; background-color:#fffff;">
+       style="width:100%; background-color:#e8e8e2;">
 <tr>
 <td align="center" style="padding:24px 10px;">
 
@@ -56,18 +56,29 @@ MISSION BRIEFING &nbsp; • &nbsp; 2026
     font-size:17px;
     line-height:27px;">
 
+<!-- LEFT-ALIGNED MILITARY PHOTO -->
+<table role="presentation" cellpadding="0" cellspacing="0" border="0" align="left" style="margin:0 20px 15px 0;">
+<tr>
+<td>
+<img src="https://www.myimgcloud.com/e940c888-b66a-4b9c-8df1-05585746cd9d.jpeg" alt="Ryan Zinke Military Photo" width="180" style="display:block; width:100%; max-width:180px; height:auto; border:0; border-radius:4px;">
+</td>
+</tr>
+</table>
+
 <p style="margin:0 0 20px;">
-<strong>${Recipient.FIRST_NAME},  Commander Zinke here.</strong>
+<strong>${Recipient.FIRST_NAME}, Commander Zinke here.</strong>
 </p>
 
 <!-- OPENING COPY -->
 <p style="margin:0 0 20px;">
- I'm going to be blunt, the kind of blunt I'd be with one of my SEALs before a mission.
+I'm going to be blunt, the kind of blunt I'd be with one of my SEALs before a mission.
 </p>
 
 <p style="margin:0 0 20px;">
 I just got a briefing that stopped me cold.
 </p>
+
+<div style="clear:both;"></div>
 
 <!-- BRIEFING BOX -->
 <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0"
@@ -272,3 +283,5 @@ Former U.S. Secretary of the Interior
 
 </body>
 </html>
+
+
