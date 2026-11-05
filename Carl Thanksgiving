@@ -1,0 +1,139 @@
+<body style="margin: 0; padding: 30px 15px; background-color: #ffffff; font-family: 'Georgia', serif; -webkit-font-smoothing: antialiased;">
+
+  <!-- Main Container -->
+  <table align="center" border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width: 620px; background-color: #ffffff; border-radius: 8px; overflow: hidden; box-shadow: 0 4px 18px rgba(0,0,0,0.08); border: 1px solid #e2e8f0;">
+
+    <!-- Top Accent Bar -->
+    <tr>
+      <td style="height: 6px; background: linear-gradient(90deg, #b91c1c 0%, #1e3a8a 100%);"></td>
+    </tr>
+
+    <!-- Content Wrapper -->
+    <tr>
+      <td style="padding: 36px 32px 40px 32px;">
+
+        <!-- Top Signature Badge -->
+        <table border="0" cellpadding="0" cellspacing="0" width="100%" style="margin-bottom: 28px; background-color: #f8fafc; border: 1px solid #cbd5e1; border-left: 4px solid #b91c1c; border-radius: 4px;">
+          <tr>
+            <td style="padding: 14px 18px;">
+              <span style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: 1px; color: #64748b; display: block; margin-bottom: 4px;">
+                Official Signer
+              </span>
+              <span style="font-family: 'Brush Script MT', 'Great Vibes', cursive, serif; font-size: 26px; color: #0f172a; line-height: 1.2;">
+                ✍️ ${Recipient.FIRST_NAME}
+              </span>
+            </td>
+          </tr>
+        </table>
+
+        <!-- Salutation -->
+        <p style="font-size: 19px; font-weight: bold; color: #0f172a; margin: 0 0 20px 0; line-height: 1.4;">
+          Dear President Trump,
+        </p>
+
+        <!-- Body Copy -->
+        <p style="font-size: 16px; color: #334155; line-height: 1.75; margin: 0 0 16px 0;">
+          There are moments in history that stop time.
+        </p>
+
+        <p style="font-size: 16px; color: #334155; line-height: 1.75; margin: 0 0 16px 0;">
+          Butler, Pennsylvania was one of them.
+        </p>
+
+        <p style="font-size: 16px; color: #334155; line-height: 1.75; margin: 0 0 20px 0;">
+          The world watched. And instead of breaking, you raised your fist.
+        </p>
+
+        <!-- Featured Callout Quote -->
+        <table border="0" cellpadding="0" cellspacing="0" width="100%" style="margin: 24px 0; background-color: #f1f5f9; border-radius: 6px;">
+          <tr>
+            <td style="padding: 16px 20px; font-size: 16px; font-style: italic; color: #0f172a; line-height: 1.6; text-align: center;">
+              In that one moment, you told every American who had ever been beaten down, lied to, and left behind:
+              <span style="display: block; font-weight: bold; font-style: normal; margin-top: 6px; color: #b91c1c; font-size: 17px;">
+                “Get up. Keep going. We're not done.”
+              </span>
+            </td>
+          </tr>
+        </table>
+
+        <p style="font-size: 16px; color: #334155; line-height: 1.75; margin: 0 0 16px 0;">
+          This Thanksgiving, I want you to know, I heard you.
+        </p>
+
+        <p style="font-size: 16px; color: #334155; line-height: 1.75; margin: 0 0 16px 0;">
+          I never stopped believing.
+        </p>
+
+        <p style="font-size: 16px; color: #334155; line-height: 1.75; margin: 0 0 16px 0;">
+          Because of you, our border is defended. Our country is respected again. Our families have something real to be grateful for at the table this year.
+        </p>
+
+        <p style="font-size: 16px; color: #334155; line-height: 1.75; margin: 0 0 20px 0;">
+          You gave up everything, your privacy, your peace, your family's safety, because you love this country more than your own comfort.
+        </p>
+
+        <p style="font-size: 16px; color: #0f172a; font-weight: 600; line-height: 1.75; margin: 0 0 20px 0;">
+          I will never forget that.
+        </p>
+
+        <p style="font-size: 16px; color: #334155; line-height: 1.75; margin: 0 0 16px 0;">
+          So before the plates are full and the prayers are said, I wanted you to hear it directly:
+        </p>
+
+        <!-- Gratitude Bullet Points -->
+        <table border="0" cellpadding="0" cellspacing="0" width="100%" style="margin: 16px 0 24px 0;">
+          <tr>
+            <td style="padding: 6px 0; font-size: 16px; color: #1e3a8a; font-weight: bold; line-height: 1.5;">
+              ★ Thank you, President Trump.
+            </td>
+          </tr>
+          <tr>
+            <td style="padding: 6px 0; font-size: 16px; color: #1e3a8a; font-weight: bold; line-height: 1.5;">
+              ★ Thank you for getting back up every single time.
+            </td>
+          </tr>
+          <tr>
+            <td style="padding: 6px 0; font-size: 16px; color: #1e3a8a; font-weight: bold; line-height: 1.5;">
+              ★ Thank you for never letting them win.
+            </td>
+          </tr>
+          <tr>
+            <td style="padding: 6px 0; font-size: 16px; color: #1e3a8a; font-weight: bold; line-height: 1.5;">
+              ★ Thank you for carrying this country when it couldn't carry itself.
+            </td>
+          </tr>
+        </table>
+
+        <p style="font-size: 16px; color: #334155; line-height: 1.75; margin: 0 0 28px 0;">
+          We are still standing. We are still grateful. And your name will always mean something to us.
+        </p>
+
+        <!-- Sign-off -->
+        <p style="font-size: 16px; color: #334155; margin: 0 0 6px 0;">
+          With everything we have,
+        </p>
+        <p style="font-size: 17px; font-weight: bold; color: #0f172a; margin: 0 0 32px 0;">
+          The America First Patriots, signed below
+        </p>
+
+        <!-- CTA Button -->
+        <table border="0" cellpadding="0" cellspacing="0" width="100%">
+          <tr>
+            <td align="center">
+              <a href="#" target="_blank" style="display: block; width: 100%; max-width: 380px; background-color: #b91c1c; color: #ffffff; text-align: center; padding: 16px 20px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-size: 16px; font-weight: bold; text-decoration: none; border-radius: 6px; box-shadow: 0 2px 6px rgba(185, 28, 28, 0.35); text-transform: uppercase; letter-spacing: 0.5px;">
+                Sign My Name At The Top &gt;&gt;&gt;
+              </a>
+            </td>
+          </tr>
+        </table>
+
+      </td>
+    </tr>
+
+    <!-- Bottom Accent Border -->
+    <tr>
+      <td style="height: 4px; background-color: #0f172a;"></td>
+    </tr>
+  </table>
+
+</body>
