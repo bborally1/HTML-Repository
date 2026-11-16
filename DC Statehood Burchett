@@ -1,0 +1,93 @@
+<!-- Email-safe: table layout + inline styles. Merge fields left as-is. Replace YOUR_LINK_HERE. -->
+<div style="display:none;max-height:0;overflow:hidden;opacity:0;font-size:1px;line-height:1px;color:#ffffff;">
+  ${Recipient.FIRST_NAME}, your name is on the DC statehood supporter list right now. Fix this now.
+</div>
+
+<table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="background:#ffff;">
+  <tr>
+    <td align="center" style="padding:28px 12px;">
+
+      <table role="presentation" width="600" cellpadding="0" cellspacing="0" border="0" style="width:100%;max-width:600px;border-collapse:collapse;background:#ffffff;">
+
+        <!-- Red masthead with stars -->
+        <tr>
+          <td align="center" bgcolor="#c8102e" style="background:#c8102e;padding:22px 20px;font-family:Georgia,'Times New Roman',serif;font-size:30px;line-height:30px;color:#ffffff;letter-spacing:18px;">
+            &#9733;&#9733;&#9733;
+          </td>
+        </tr>
+        <tr><td height="6" style="height:6px;line-height:6px;font-size:0;background:#ffffff;">&nbsp;</td></tr>
+        <tr><td height="6" style="height:6px;line-height:6px;font-size:0;background:#c8102e;">&nbsp;</td></tr>
+
+        <!-- Name + state -->
+        <tr>
+          <td style="padding:40px 40px 4px 40px;font-family:Arial,Helvetica,sans-serif;font-size:15px;line-height:22px;color:#6b6b6b;">
+          </td>
+        </tr>
+
+        <!-- Headline -->
+        <tr>
+          <td style="padding:0 40px 28px 40px;font-family:Georgia,'Times New Roman',serif;font-size:40px;line-height:44px;font-weight:bold;color:#14213d;">
+            Right now, you are listed as a supporter of DC statehood.
+          </td>
+        </tr>
+
+        <!-- Record card -->
+        <tr>
+          <td style="padding:0 40px 32px 40px;">
+            <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="border-collapse:collapse;border:2px solid #14213d;">
+              <tr>
+                <td colspan="2" bgcolor="#14213d" style="background:#14213d;padding:10px 18px;font-family:Arial,Helvetica,sans-serif;font-size:14px;line-height:20px;font-weight:bold;color:#ffffff;">
+                  Your supporter record
+                </td>
+              </tr>
+              <tr>
+                <td width="38%" style="padding:14px 18px;border-bottom:1px solid #d9d9d9;font-family:Arial,Helvetica,sans-serif;font-size:15px;line-height:22px;color:#6b6b6b;">Name</td>
+                <td style="padding:14px 18px;border-bottom:1px solid #d9d9d9;font-family:Arial,Helvetica,sans-serif;font-size:17px;line-height:22px;font-weight:bold;color:#14213d;">${Recipient.FIRST_NAME}</td>
+              </tr>
+              <tr>
+                <td style="padding:14px 18px;border-bottom:1px solid #d9d9d9;font-family:Arial,Helvetica,sans-serif;font-size:15px;line-height:22px;color:#6b6b6b;">State</td>
+                <td style="padding:14px 18px;border-bottom:1px solid #d9d9d9;font-family:Arial,Helvetica,sans-serif;font-size:17px;line-height:22px;font-weight:bold;color:#14213d;">${Recipient.STATE}</td>
+              </tr>
+              <tr>
+                <td style="padding:14px 18px;font-family:Arial,Helvetica,sans-serif;font-size:15px;line-height:22px;color:#6b6b6b;">Position</td>
+                <td style="padding:14px 18px;font-family:Arial,Helvetica,sans-serif;font-size:17px;line-height:22px;font-weight:bold;color:#c8102e;">&#9733; Supports DC statehood</td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+
+        <!-- Urgent call -->
+        <tr>
+          <td align="center" style="padding:0 40px 8px 40px;font-family:Georgia,'Times New Roman',serif;font-size:32px;line-height:36px;font-weight:bold;color:#c8102e;">
+            Fix this now.
+          </td>
+        </tr>
+        <tr>
+          <td align="center" style="padding:0 40px 26px 40px;font-family:Arial,Helvetica,sans-serif;font-size:16px;line-height:24px;color:#3a3a3a;">
+            One click makes sure your record is right.
+          </td>
+        </tr>
+
+        <!-- Button -->
+        <tr>
+          <td align="center" style="padding:0 40px 44px 40px;">
+            <table role="presentation" cellpadding="0" cellspacing="0" border="0" style="width:100%;max-width:420px;">
+              <tr>
+                <td align="center" bgcolor="#c8102e" style="background:#c8102e;border-bottom:4px solid #8f0b21;">
+                  <a href="YOUR_LINK_HERE" style="display:block;padding:20px 24px;font-family:Arial,Helvetica,sans-serif;font-size:20px;line-height:24px;font-weight:bold;color:#ffffff;text-decoration:none;">Fix my record now</a>
+                </td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+
+        <!-- Bottom bars -->
+        <tr><td height="6" style="height:6px;line-height:6px;font-size:0;background:#c8102e;">&nbsp;</td></tr>
+        <tr><td height="6" style="height:6px;line-height:6px;font-size:0;background:#ffffff;">&nbsp;</td></tr>
+        <tr><td height="6" style="height:6px;line-height:6px;font-size:0;background:#c8102e;">&nbsp;</td></tr>
+
+      </table>
+
+    </td>
+  </tr>
+</table>
