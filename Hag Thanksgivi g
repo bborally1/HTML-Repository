@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Happy Thanksgiving President Trump!</title>
+</head>
+<body style="margin: 0; padding: 0; background-color: #ffff; font-family: Arial, Helvetica, sans-serif;">
+
+  <!-- Outer Wrapper Table -->
+  <table role="presentation" width="100%" cellspacing="0" cellpadding="0" border="0" style="background-color: #ffff; padding: 20px 0;">
+    <tr>
+      <td align="center">
+
+        <!-- Main Email Container (600px standard email width) -->
+        <table role="presentation" width="600" cellspacing="0" cellpadding="0" border="0" style="max-width: 600px; width: 100%; background-color: #0e1c36; border-radius: 8px; overflow: hidden; box-shadow: 0 4px 12px rgba(0,0,0,0.2);">
+          
+          <!-- Hosted Banner Image -->
+          <tr>
+            <td align="center" style="padding: 0; margin: 0; line-height: 0;">
+              <a href="#SIGN_CARD_URL" target="_blank" style="text-decoration: none; display: block;">
+                <img src="https://www.myimgcloud.com/7a30851d-3d8d-4fbf-b325-7f0f58d1b180.jpeg" 
+                     alt="Happy Thanksgiving President Trump! - Sign The Card Now" 
+                     width="600" 
+                     style="width: 100%; max-width: 600px; height: auto; display: block; border: 0;">
+              </a>
+            </td>
+          </tr>
+
+          <!-- Blended Transition Bar (Matches Deep Navy & Gold of Graphic) -->
+          <tr>
+            <td style="background: linear-gradient(180deg, #0b1930 0%, #122546 100%); background-color: #0e1c36; padding: 24px 30px 10px 30px; text-align: center; border-top: 3px solid #d4af37;">
+              <p style="margin: 0; color: #f5d77f; font-size: 14px; letter-spacing: 2px; text-transform: uppercase; font-weight: bold;">
+                Official Thanksgiving Greeting Card
+              </p>
+              <h2 style="margin: 8px 0 0 0; color: #ffffff; font-size: 22px; font-weight: bold; line-height: 1.3;">
+                ${Recipient.FIRST_NAME}, add your name before the deadline!
+              </h2>
+            </td>
+          </tr>
+
+          <!-- Signature Portal Section -->
+          <tr>
+            <td style="background-color: #0e1c36; padding: 15px 30px 30px 30px;">
+              
+              <!-- Inner Parchment Card Box -->
+              <table role="presentation" width="100%" cellspacing="0" cellpadding="0" border="0" style="background-color: #fdfbf7; border: 2px solid #d4af37; border-radius: 6px; padding: 20px;">
+                <tr>
+                  <td style="padding: 20px; text-align: left; color: #1a1a1a;">
+                    
+                 
+
+                    <!-- Signature Portal Preview Box -->
+                    <table role="presentation" width="100%" cellspacing="0" cellpadding="0" border="0" style="background-color: #f3efe6; border: 1px dashed #b8860b; border-radius: 4px; margin-bottom: 20px;">
+                      <tr>
+                        <td style="padding: 14px 16px;">
+                          <table role="presentation" width="100%" cellspacing="0" cellpadding="0" border="0">
+                            <tr>
+                              <td style="font-size: 12px; text-transform: uppercase; letter-spacing: 1px; color: #7a5c12; font-weight: bold; padding-bottom: 4px;">
+                                Reserved Signature Slot:
+                              </td>
+                              <td align="right" style="font-size: 12px; color: #b22222; font-weight: bold; padding-bottom: 4px;">
+                                STATUS: PENDING
+                              </td>
+                            </tr>
+                            <tr>
+                              <td colspan="2" style="padding-top: 6px; border-top: 1px solid #dcd3c1; font-family: 'Georgia', serif; font-style: italic; font-size: 18px; color: #0e1c36;">
+                                Signed: <strong>${Recipient.FIRST_NAME}</strong>
+                              </td>
+                            </tr>
+                          </table>
+                        </td>
+                      </tr>
+                    </table>
+
+                    <!-- CTA Button -->
+                    <table role="presentation" width="100%" cellspacing="0" cellpadding="0" border="0">
+                      <tr>
+                        <td align="center">
+                          <a href="#SIGN_CARD_URL" target="_blank" style="display: inline-block; background-color: #b22222; color: #ffffff; font-size: 16px; font-weight: bold; text-decoration: none; padding: 14px 32px; border-radius: 5px; border: 2px solid #d4af37; letter-spacing: 1px; text-transform: uppercase;">
+                            Confirm &amp; Sign The Card &raquo;
+                          </a>
+                        </td>
+                      </tr>
+                    </table>
+
+                  </td>
+                </tr>
+              </table>
+
+            </td>
+          </tr>
+
+          <!-- Footer Bar -->
+          <tr>
+            <td style="background-color: #081224; padding: 16px 30px; text-align: center; border-top: 1px solid #1e355e;">
+              <p style="margin: 0; font-size: 12px; color: #9aa8c2; line-height: 1.5;">
+                Sent to ${Recipient.FIRST_NAME} &bull; Thanksgiving Card Registry
+              </p>
+            </td>
+          </tr>
+
+        </table>
+
+      </td>
+    </tr>
+  </table>
+
+</body>
+</html>
