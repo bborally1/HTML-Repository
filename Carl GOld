@@ -1,0 +1,90 @@
+<!-- Main Status Card Table -->
+<table width="100%" cellpadding="0" cellspacing="0" border="0" style="max-width: 560px; margin: 0 auto; font-family: 'Segoe UI', Arial, Helvetica, sans-serif; background-color: #ffffff; border: 1px solid #d4af37; border-radius: 10px; border-collapse: separate; overflow: hidden; box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);">
+  
+  <!-- Top Gold Accent Bar -->
+  <tr>
+    <td style="height: 6px; background: linear-gradient(90deg, #aa771c, #fcf6ba, #b38728, #fbf5b7, #aa771c);"></td>
+  </tr>
+
+  <!-- Top Section: Emblem & Status -->
+  <tr>
+    <td align="center" style="padding: 32px 24px 24px 24px; background: radial-gradient(circle at top, #fffdf5 0%, #ffffff 75%); border-bottom: 1px solid #eee4c8;">
+      <!-- Metallic Gold Emblem SVG -->
+      <div style="margin-bottom: 18px;">
+        <svg width="104" height="104" viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg">
+          <defs>
+            <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+              <stop offset="0%" stop-color="#bf953f"/>
+              <stop offset="25%" stop-color="#fcf6ba"/>
+              <stop offset="50%" stop-color="#b38728"/>
+              <stop offset="75%" stop-color="#fbf5b7"/>
+              <stop offset="100%" stop-color="#aa771c"/>
+            </linearGradient>
+          </defs>
+          <!-- Outer Ring -->
+          <circle cx="60" cy="60" r="54" fill="#1c1915" stroke="url(#goldGrad)" stroke-width="5"/>
+          <circle cx="60" cy="60" r="48" fill="none" stroke="#b38728" stroke-width="1" stroke-dasharray="2,3"/>
+          
+          <!-- Silhouette Icon -->
+          <path d="M35 54 C35 36, 85 36, 85 54 L85 78 L71 78 L71 66 L49 66 L49 78 L35 78 Z" fill="url(#goldGrad)"/>
+          <path d="M85 63 C93 63, 96 69, 96 74 C96 80, 91 83, 86 81 C83 80, 83 76, 86 76 C88 76, 90 75, 90 73 C90 70, 88 68, 85 68 Z" fill="url(#goldGrad)"/>
+          <rect x="35" y="51" width="50" height="3.5" fill="#1c1915"/>
+          
+          <!-- Three Stars -->
+          <polygon points="45,41 46.5,44.5 50,44.5 47.2,46.5 48.2,50 45,48 41.8,50 42.8,46.5 40,44.5 43.5,44.5" fill="#1c1915"/>
+          <polygon points="60,41 61.5,44.5 65,44.5 62.2,46.5 63.2,50 60,48 56.8,50 57.8,46.5 55,44.5 58.5,44.5" fill="#1c1915"/>
+          <polygon points="75,41 76.5,44.5 80,44.5 77.2,46.5 78.2,50 75,48 71.8,50 72.8,46.5 70,44.5 73.5,44.5" fill="#1c1915"/>
+        </svg>
+      </div>
+
+      <!-- Status Pill -->
+      <div style="display: inline-block; background-color: #fdf6e2; border: 1px solid #d4af37; color: #8a6414; font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: 1.2px; padding: 4px 12px; border-radius: 20px; margin-bottom: 12px;">
+        Action Required • Priority Tier
+      </div>
+
+      <!-- Main Headline -->
+      <div style="font-size: 22px; font-weight: 700; color: #1c1915; margin-bottom: 8px; letter-spacing: -0.2px;">
+        <span style="color: #9e7316;">Gold</span> Status: Pending For Linda
+      </div>
+      
+      <!-- Subheadline -->
+      <div style="font-size: 14px; color: #5c5446;">
+        Immediate verification required to activate access for <strong style="color: #1c1915;">Linda</strong>
+      </div>
+    </td>
+  </tr>
+
+  <!-- Middle Section: Details & Bullets -->
+  <tr>
+    <td style="padding: 26px 32px; border-bottom: 1px solid #eee4c8; font-size: 14.5px; color: #332e26; line-height: 1.6;">
+      <p style="margin: 0 0 16px 0;">
+        <strong style="color: #1c1915;">Linda</strong>, your profile has been <strong style="color: #1c1915;">pre-selected</strong> for Gold tier privileges, with just one step remaining.
+      </p>
+      
+      <!-- Highlighted Info Box -->
+      <div style="background-color: #faf7ef; border-left: 3px solid #d4af37; padding: 14px 18px; border-radius: 0 6px 6px 0; margin-bottom: 16px;">
+        <ul style="margin: 0; padding-left: 18px; line-height: 1.75; color: #3d372e;">
+          <li>Enrollment is strictly limited to a select inner circle.</li>
+          <li>Every roster entry is audited for full authenticity.</li>
+          <li><strong style="color: #9e2a2b;">Current Status:</strong> File pending final verification.</li>
+        </ul>
+      </div>
+
+      <p style="margin: 0;">
+        You have reached the <strong style="color: #1c1915;">final verification step.</strong> Confirm today to secure your <strong style="color: #9e7316;">Gold</strong> standingdelaying further will release your reserved slot.
+      </p>
+    </td>
+  </tr>
+
+  <!-- Bottom Section: Primary CTA Button -->
+  <tr>
+    <td align="center" style="padding: 24px 24px 28px 24px; background-color: #fcfaf5;">
+      <a href="#" style="display: inline-block; background: linear-gradient(135deg, #c59b27 0%, #e6c665 50%, #b38728 100%); color: #1c1915; text-decoration: none; font-weight: 700; font-size: 15px; padding: 14px 32px; border-radius: 6px; letter-spacing: 0.5px; border: 1px solid #9e7316; box-shadow: 0 3px 8px rgba(179, 135, 40, 0.25);">
+        ACTIVATE GOLD STATUS &rarr;
+      </a>
+      <div style="margin-top: 10px; font-size: 11.5px; color: #7a7060;">
+        Encrypted 256-bit verification • Reserved exclusively for Linda
+      </div>
+    </td>
+  </tr>
+</table>
